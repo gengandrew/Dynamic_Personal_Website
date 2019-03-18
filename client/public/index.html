@@ -75,6 +75,7 @@
       integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
       crossorigin="anonymous"
     ></script>
+    <!-- Custom javascript -->
     <script type="text/javascript">
       $(document).ready(function() {
         $("#sidebarCollapse").on("click", function() {
@@ -83,5 +84,26 @@
         });
       });
     </script>
+        <script type="text/javascript">
+          $(function() {
+              $('a').each(function() {
+                  var url = $(this).attr('href');
+                  if(url.substr(0,1) == '#') {
+                      $(this).click(function() {
+                          var scroll = 0;
+                          if(url != '#') scroll = $( url ).offset().top;
+                          $('html, body').animate({ scrollTop: scroll}, 1000);
+                          return false;
+                      });
+                      return;
+                  }
+                  if(url.substr(0,4) == 'http') {
+                      $(this).attr('target', '_blank');
+                      $(this).click(function() {ga('send', 'event', url,'click');});
+                  }
+              });      
+          });
+      </script>
+      <script src='js/toc.js'></script>
   </body>
 </html>
