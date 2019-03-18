@@ -18,7 +18,7 @@ class MainNavBar extends Component {
               </button>
             </li>
             <li>
-            <InsertDBModal />
+              <InsertDBModal />
             </li>
           </ul>
         </div>
