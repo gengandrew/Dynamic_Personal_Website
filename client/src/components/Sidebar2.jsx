@@ -24,9 +24,30 @@ class Sidebar extends Component {
     return (
       <nav id="sidebar">
         <div className="sidebar-header">
-          <h3>Awesome Content</h3>
+          <h3>Andrew's Awesome Content</h3>
         </div>
         <ul className="list-unstyled components">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/Education">Education</a>
+          </li>
+          <li>
+            <a href="/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
+          </li>
+          <li>
+            <a href="/Work_and_Internship_Experiences">Work and Internship Experiences</a>
+          </li>
+          <li>
+            <a href="/Personal_and_Group_Endevors">Personal and Group Endevors</a>
+          </li>
+          <li>
+            <a href="/Hobbies_and_Intrestes">Hobbies and Intrestes</a>
+          </li>
+          <li>
+            <a href="/Miscellaneous">Miscellaneous</a>
+          </li>
           <li className="active">
             <a
               href="#placeHolder"
@@ -36,7 +57,7 @@ class Sidebar extends Component {
               onClick={this.toggle}
               style={this.state}
             >
-              Bookmarks
+              Favorites
             </a>
             <Collapse isOpen={this.state.collapse}>
                 <div class="panel_right">
@@ -47,21 +68,6 @@ class Sidebar extends Component {
                     </div>
                 </div>
             </Collapse>
-          </li>
-          <li>
-            <a href="/">App #1</a>
-          </li>
-          <li>
-            <a href="/">App #2</a>
-          </li>
-          <li>
-            <a href="/">App #3</a>
-          </li>
-          <li>
-            <a href="/">App #4</a>
-          </li>
-          <li>
-            <a href="/">App #5</a>
           </li>
         </ul>
       </nav>

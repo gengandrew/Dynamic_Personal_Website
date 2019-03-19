@@ -10,6 +10,12 @@ import { Provider } from "react-redux";
 import store from "./store";
 import App from "./App";
 import ErrorPage from "./pages/ErrorPage";
+import EducationPage from "./pages/EducationPage";
+import SkillsPage from "./pages/SkillsPage";
+import HobbiesPage from "./pages/HobbiesPage";
+import MiscPage from "./pages/MiscPage";
+import ProjectPage from "./pages/ProjectPage";
+import WorkPage from "./pages/WorkPage";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,6 +26,12 @@ ReactDOM.render(
     <BrowserRouter>
       <Switch>
         <Route path="/" component={App} exact />
+        <Route path="/Education" component={EducationPage} exact />
+        <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
+        <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
+        <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
+        <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
+        <Route path="/Miscellaneous" component={MiscPage} exact />
         <Route component={ErrorPage} />
       </Switch>
     </BrowserRouter>

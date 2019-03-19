@@ -17,7 +17,7 @@ class MainNavBar extends Component {
                 <span /> <span /> <span />
               </button>
             </li>
-            <li>
+            <li style={{float: "right"}}>
               <InsertDBModal />
             </li>
           </ul>
