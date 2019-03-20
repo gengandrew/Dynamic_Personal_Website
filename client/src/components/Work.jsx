@@ -31,10 +31,10 @@ class Work extends Component {
                         <Col>
                             <Media>
                                 <Media>
-                                    <Media object src={BostonSci} style={{maxHeight: 1000, maxWidth: 800}} alt="Boston Scientific"/>
+                                    <Media object src={BostonSci} style={{maxHeight: 1000, maxWidth: 800}} alt="Boston Scientific" id="HeadImg"/>
                                 </Media>
                             </Media>
-                            <a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html" style={{float: "right", fontSize: "12px", fontStyle: "italic"}}>- Boston Scientific</a>
+                            <a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html" style={{float: "right", fontSize: "12px", fontStyle: "italic"}} id="HeadImg_Link">- Boston Scientific</a>
                         </Col>
                         <Col></Col>
                     </Row>

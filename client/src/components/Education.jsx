@@ -31,7 +31,7 @@ class Education extends Component {
                         <Col>
                             <Media>
                                 <Media>
-                                    <Media object src={UWMadison_Main} alt="UWMadison_Main"/>
+                                    <Media object src={UWMadison_Main} alt="UWMadison_Main" id="HeadImg"/>
                                 </Media>
                             </Media>
                         </Col>

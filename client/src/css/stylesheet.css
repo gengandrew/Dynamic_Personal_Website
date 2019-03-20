@@ -125,6 +125,12 @@ a[data-toggle="collapse"] {
 }
 
 @media (max-width: 768px) {
+  #HeadImg{
+    display: none;
+  }
+  #HeadImg_Link{
+    display: none;
+  }
   #footer{
     display: none;
   }
