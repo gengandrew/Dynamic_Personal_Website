@@ -19,3 +19,9 @@ class HobbiesPage extends Component {
 }
 
 export default HobbiesPage;
+
+/*
+May not Music be described as the Mathematic of sense, 
+Mathematic as Music of the reason? the soul of each the same! 
+- James Joseph Sylvester (1864)
+*/
