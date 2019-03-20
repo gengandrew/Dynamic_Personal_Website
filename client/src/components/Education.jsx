@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Media } from "reactstrap";
 import InsertDBModal from "./InsertDBModal";
+import UWMadison_Main from "../images/UWMadison_Main.jpg";
 
 class Education extends Component {
     render() { 
@@ -25,6 +26,18 @@ class Education extends Component {
                     </nav>
                 </Row>
                 <Container>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <Media>
+                                <Media>
+                                    <Media object src={UWMadison_Main} alt="UWMadison_Main"/>
+                                </Media>
+                            </Media>
+                        </Col>
+                        <Col></Col>
+                    </Row>
+                    <div style={{marginTop: "2rem"}}>
                     <h3>Education</h3>
                     <p>
                         <ul>
@@ -41,6 +54,7 @@ class Education extends Component {
                         Previously attended High School at <strong><a className="underLine" href="https://mcpasd.k12.wi.us/mhs/">Middleton High School</a></strong> where I participated in Model UN, Track and Field, Math Team, Programming Club, and was an active member of the First Robotics Team <strong><a className="underLine" href="http://www.badgerbots.org/">Badgerbots</a></strong>.
                         </ul>
                     </p>
+                    </div>
                 </Container>
                 <Container id="footer">
                     Powered by the React Framework and Caffine, source code can be found <a className="underLine">here</a>
