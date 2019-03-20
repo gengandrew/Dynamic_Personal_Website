@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Provider } from "react-redux";
 //import store from "./store";
 import Sidebar from "../components/Sidebar2";
-
+import Education from "../components/Education";
 import "jquery";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,6 +14,7 @@ class EducationPage extends Component {
     return (
       <div className="wrapper">
         <Sidebar />
+        <Education />
       </div>
     );
   }

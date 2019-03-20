@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Media, Container, Row, Col } from 'reactstrap';
 import MainNavbar from "./MainNavbar";
 import InsertDBModal from "./InsertDBModal";
 import Headshot from "./Headshot";
 import About from "./About";
+import JJS_Quote from "../images/ST_Quote2.jpg";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/stylesheet.css";
@@ -69,8 +70,22 @@ class Custom_Content extends Component {
           <Col xs={this.state.ContentAlignment.LeftNRight}></Col>
         </Row>
       </Container>
+      <Container id="quote">
+        <Row>
+          <Col xs="3"></Col>
+          <Col xs="6">
+            <p>
+            To me, mathematics, computer science, and the arts are insanely related. They're all creative expressions.
+            </p>
+            <p style={{textAlign: "right"}}>
+              - Sebastian Thrun
+            </p>
+          </Col>
+          <Col xs="3"></Col>
+        </Row>
+      </Container>
       <Container id="footer">
-        Powered by the React Framework and Caffine, open source project can be found <a className="underLine">here</a>
+        Powered by the React Framework and Caffine, source code can be found <a className="underLine">here</a>
       </Container>
       </div>
     );
