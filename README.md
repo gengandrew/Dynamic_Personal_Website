@@ -1,6 +1,6 @@
 ## Project Description
 
-A Boilerplate for React-Redux project with a mySQL backend.
+Second Verison of my personal webpage. Made using the React Framework and a mySQL backend.
 
 ## Available Scripts
 
