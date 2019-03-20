@@ -14,7 +14,7 @@ import {
   Input
 } from "reactstrap";
 
-class itemModal extends Component {
+class InsertDBModal_InLine extends Component {
   state = {
     modal: false,
     name: "",
@@ -111,7 +111,7 @@ class itemModal extends Component {
   render() {
     return (
       <React.Fragment>
-        <a className="nav-link" onClick={this.toggle}>
+        <a className="underLine" onClick={this.toggle}>
           Survey
         </a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
@@ -178,4 +178,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { addAppDatabase, changeToAppDB, getAllTables}
-)(itemModal);
+)(InsertDBModal_InLine);

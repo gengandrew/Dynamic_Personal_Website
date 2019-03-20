@@ -85,7 +85,7 @@ class Custom_Content extends Component {
         </Row>
       </Container>
       <Container id="footer">
-        Powered by the React Framework and Caffine, source code can be found <a className="underLine">here</a>
+        Powered by the React Framework and Caffine, source code can be found <a className="underLine" href="https://github.com/gengandrew/Dynamic_Personal_Website">here</a>
       </Container>
       </div>
     );
