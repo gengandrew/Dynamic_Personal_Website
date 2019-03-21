@@ -125,4 +125,12 @@ router.get("/createTable/:TableName", (req, res) => {
   });
 });
 
+/*
+  Write to a locally hosted csv file.
+*/
+router.get("/addToCSV", (req, res) => {
+  console.log(req.body);
+  return;
+})
+
 module.exports = router;

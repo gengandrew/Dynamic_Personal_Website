@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import uuid from "uuid";
 import axios from "axios";
-import { addAppDatabase, changeToAppDB, getAllTables } from "../actions/itemActions";
+import { addToCSV } from "../actions/itemActions";
 import {
   Button,
   Modal,
@@ -18,10 +18,10 @@ class itemModal extends Component {
   state = {
     modal: false,
     name: "",
-    host: "",
-    user: "",
-    password: "",
-    database: ""
+    school: "",
+    work: "",
+    song: "",
+    info: ""
   };
   /*
   constructor(props){
@@ -40,23 +40,37 @@ class itemModal extends Component {
     this.setState({ name: e.target.value });
   };
 
-  onChangeHost = e => {
-    this.setState({ host: e.target.value });
+  onChangeSchool = e => {
+    this.setState({ school: e.target.value });
   };
 
-  onChangeDB = e => {
-    this.setState({ database: e.target.value });
+  onChangeWork = e => {
+    this.setState({ work: e.target.value });
   };
 
-  onChangeUserName = e => {
-      this.setState({ user: e.target.value });
+  onChangeSong = e => {
+      this.setState({ song: e.target.value });
   };
 
-  onChangePassword = e => {
-      this.setState({ password: e.target.value });
+  onChangeInfo = e => {
+      this.setState({ info: e.target.value });
   };
 
   onSubmit = e => {
+    e.preventDefault();
+    let myData = [
+      {
+        name: "Hello World",
+        school: "UWW",
+        work: "UWW",
+        song: "cool",
+        info: "awesome"
+      }
+    ];
+    console.log("correct");
+    this.props.addToCSV(myData);
+    this.toggle();
+    /*
     e.preventDefault();
     const newItem = {
         name: this.state.name,
@@ -72,42 +86,10 @@ class itemModal extends Component {
     this.toggle();
     //window.open("http://localhost:3000/bookmark", "something");
     window.open("http://localhost:3000/new_app", "Something");
+    */
+
   };
-/*
-  async helper(){
-    await axios.get("http://localhost:5000/api/getAllTables").then(res => {
-      console.log("This is res data");
-      console.log(res.data);
-      if(res === null){
-        return 0;
-      } else {
-        return 1;
-      }
-    });
-  }
 
-  async onSubmit(){
-    const newItem = {
-      name: this.state.name,
-      host: this.state.host,
-      user: this.state.user,
-      password: this.state.password,
-      database: this.state.database
-    };
-    this.props.addAppDatabase(newItem);
-    this.props.changeToAppDB(newItem);
-
-    alert("cool");
-
-    let pingTest = await this.helper();
-
-    //let pingTest = await this.props.getAllTables();
-    alert(pingTest);
-    console.log(pingTest);
-    alert(pingTest);
-    this.toggle();
-  }
-*/
   render() {
     return (
       <React.Fragment>
@@ -115,7 +97,7 @@ class itemModal extends Component {
           Survey
         </a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>Adding new Application</ModalHeader>
+          <ModalHeader toggle={this.toggle}>New Survey</ModalHeader>
           <ModalBody>
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
@@ -123,40 +105,39 @@ class itemModal extends Component {
                   type="text"
                   name="name"
                   id="item"
-                  placeholder="Application Name"
+                  placeholder="What's Your Name"
                   onChange={this.onChangeName}
                 />
                 <Input
                   type="text"
-                  name="host"
+                  name="school"
                   id="item"
-                  placeHolder="Host Name"
-                  onChange={this.onChangeHost}
+                  placeHolder="Where did you go to School?"
+                  onChange={this.onChangeSchool}
                   style={{ marginTop: "10px" }}
                 />
                 <Input
                   type="test"
-                  name="database"
+                  name="work"
                   id="item"
-                  placeHolder="Database Name"
-                  onChange={this.onChangeDB}
+                  placeHolder="Where do you work?"
+                  onChange={this.onChangeWork}
                   style={{ marginTop: "10px" }}
                 />
                 <Input
                   type="test"
-                  name="user"
+                  name="song"
                   id="item"
-                  placeHolder="Admin Username"
-                  onChange={this.onChangeUserName}
+                  placeHolder="What song's currently stuck in your head?"
+                  onChange={this.onChangeSong}
                   style={{ marginTop: "10px" }}
                 />
                 <Input
                   type="test"
-                  name="password"
-                  type="password"
+                  name="info"
                   id="item"
-                  placeHolder="Admin Password"
-                  onChange={this.onChangePassword}
+                  placeHolder="What brought you to my Website?"
+                  onChange={this.onChangeInfo}
                   style={{ marginTop: "10px" }}
                 />
                 <Button color="dark" style={{ marginTop: "1rem" }} block>
@@ -177,5 +158,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { addAppDatabase, changeToAppDB, getAllTables}
+  { addToCSV}
 )(itemModal);

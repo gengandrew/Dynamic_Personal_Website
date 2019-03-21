@@ -112,3 +112,10 @@ export const init_database = item => dispatch => {
     return 1;
   })
 }
+
+export const addToCSV = item => dispatch => {
+  axios.post("https://localhost:5000/api/addToCSV", item).then(res => {
+    console.log(res);
+    return 1;
+  })
+}
