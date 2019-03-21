@@ -70,12 +70,12 @@ class Custom_Content extends Component {
           <Col xs={this.state.ContentAlignment.LeftNRight}></Col>
         </Row>
       </Container>
-      <Container id="quote">
+      <Container id="quote" style={{marginBottom: "4rem"}}>
         <Row>
           <Col xs="3"></Col>
           <Col xs="6">
             <p>
-            To me, mathematics, computer science, and the arts are insanely related. They're all creative expressions.
+            "To me, mathematics, computer science, and the arts are insanely related. They're all creative expressions."
             </p>
             <p style={{textAlign: "right"}}>
               - Sebastian Thrun
