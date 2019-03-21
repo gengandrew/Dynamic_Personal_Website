@@ -8,14 +8,14 @@ class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
-    this.state = { collapse: false, background: "#7386d5" };
+    this.state = { collapse: false, background: "#eb6864" };
   }
 
   toggle() {
     if (this.state.collapse) {
-      this.setState({ background: "#7386d5" });
+      this.setState({ background: "#eb6864" });
     } else {
-      this.setState({ background: "#6d7fcc" });
+      this.setState({ background: "#ec4f5f" });
     }
     this.setState({ collapse: !this.state.collapse });
   }
@@ -56,17 +56,22 @@ class Sidebar extends Component {
               className="dropdown-toggle"
               onClick={this.toggle}
               style={this.state}
+              id="dropDown"
             >
               Favorites
             </a>
             <Collapse isOpen={this.state.collapse}>
-                <div class="panel_right">
-                    <div class="panel panel-default panel-affix" id="myScrollspy">
-                        <div class="panel-body">
-                            <div id="toc"></div>
-                        </div>
-                    </div>
-                </div>
+            <ul className="list-unstyled">
+                <li>
+                  <a href="https://uw-upl.github.io/">Undergraduate Project Lab</a>
+                </li>
+                <li>
+                  <a href="https://hci.cs.wisc.edu/">Wisconsin HCI Lab</a>
+                </li>
+                <li>
+                  <a href="http://skoplab.weebly.com/ahna-skop.html">Skop Lab</a>
+                </li>
+              </ul>
             </Collapse>
           </li>
         </ul>
