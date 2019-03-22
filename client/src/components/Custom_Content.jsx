@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Button, Media, Container, Row, Col } from 'reactstrap';
-import MainNavbar from "./MainNavbar";
+import { Container, Row, Col } from 'reactstrap';
 import InsertDBModal from "./InsertDBModal";
 import Headshot from "./Headshot";
 import About from "./About";
-import JJS_Quote from "../images/ST_Quote2.jpg";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/stylesheet.css";

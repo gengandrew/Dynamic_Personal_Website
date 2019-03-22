@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import uuid from "uuid";
-import axios from "axios";
 import { addInfoToDB, addToCSV } from "../actions/itemActions";
 import {
   Button,
@@ -10,7 +8,6 @@ import {
   ModalBody,
   Form,
   FormGroup,
-  Label,
   Input
 } from "reactstrap";
 

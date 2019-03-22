@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Media, Row } from 'reactstrap';
+import { Media } from 'reactstrap';
 import Portrait from "../images/Andrew.jpg";
 
 class Headshot extends Component {

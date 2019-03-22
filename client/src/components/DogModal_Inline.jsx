@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import {
-  Button,
   Modal,
-  ModalHeader,
   ModalBody,
-  Form,
-  FormGroup,
-  Label,
-  Input,
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -53,9 +47,6 @@ class DogModal extends Component {
     ]
   };
 
-  constructor(props){
-      super(props);
-  }
   onExiting = () => {
       this.animating = true;
   }

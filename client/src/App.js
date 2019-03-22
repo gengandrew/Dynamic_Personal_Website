@@ -5,7 +5,6 @@
     2. All other providers and stores for the middlewear.
 */
 import React, { Component } from "react";
-import { Provider } from "react-redux";
 //import store from "./store";
 import Sidebar from "./components/Sidebar2";
 import Custom_Content from "./components/Custom_Content";

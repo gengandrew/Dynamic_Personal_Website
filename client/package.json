@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:5000",
+  "_comment": " \"proxy\": \"http://localhost:5000\" ",
   "name": "react_sql_boilerplate",
   "version": "0.1.0",
   "private": true,

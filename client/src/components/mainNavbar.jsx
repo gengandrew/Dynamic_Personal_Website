@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import InsertDBModal from "./InsertDBModal";
-//import { Button } from "reactstrap";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/stylesheet.css";
 
 class MainNavBar extends Component {
-  //state = {  }
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">

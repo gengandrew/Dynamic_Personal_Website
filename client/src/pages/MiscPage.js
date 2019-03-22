@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Provider } from "react-redux";
-//import store from "./store";
 import Sidebar from "../components/Sidebar2";
 import Miscellaneous from "../components/Miscellaneous";
 import "jquery";
