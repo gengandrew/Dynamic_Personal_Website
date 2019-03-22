@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SurveyInLine from "./InsertDBModal_Inline";
+import DogModal from "./DogModal_Inline";
 
 class About extends Component {
     render() { 
@@ -15,7 +16,7 @@ class About extends Component {
             </p>
             <p>
                 If you wouldn't mind taking this <SurveyInLine /> so that I can learn more about you that would be wonderful.
-                In the mean time please feel free to browse through my webapge or simply see some <a className="underLine" href="#">cute doggos</a> I found online.
+                In the mean time please feel free to browse through my webapge or simply see some <DogModal text="cute doggos"/> I found online.
             </p>
             </div> 
          );

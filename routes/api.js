@@ -24,33 +24,27 @@ router.get("/checkCurrDB", (req, res) => {
 });
 
 /*
-  Http Request used to obtain the names of all Tables within the current database.
+  Write to a locally hosted csv file.
 */
-router.get("/getAllTablesNames", (req, res) => {
-  let query = `SELECT table_name FROM information_schema.tables WHERE table_schema =${dbConfig.database}`;
-  let output = connection.query(query, (err, result) => {
-    if (err) {
-      return null; //removing the return
-    } else {
-      return res.json({
-        data: result.reverse()
-      });
-    }
-  });
+router.get("/addToCSV", (req, res) => {
+  console.log(req.body);
+  return;
 });
 
 /*
-  Http request for posting a new database into our service.
+  Posting survey info into the local database.
 */
-router.post("/post_Database", (req, res) => {
+router.get("/postInfo", (req, res) => {
+  console.log("hello");
   let newInsert = {
-    AppName: req.body.name,
-    host: req.body.host,
-    user: req.body.user,
-    passwd: req.body.password,
-    databaseName: req.body.database
+    InfoName: req.body.name,
+    InfoSchool: req.body.school,
+    InfoWork: req.body.work,
+    InfoSong: req.body.song,
+    Info: req.body.info
   }
-  let query = "INSERT INTO DatabaseKeys SET ?";
+  console.log(newInsert);
+  let query = "INSERT INTO Information SET ?";
   let output = connection.query(query, newInsert, (err, result) => {
     if (err) {
       return res.send(err);
@@ -59,78 +53,5 @@ router.post("/post_Database", (req, res) => {
     }
   });
 });
-
-/*
-  Http request for selecting a row based on concatnated string ID
-*/
-router.get("/getCategoryList/:UserID", (req, res) => {
-  let query = `SELECT * FROM bookmarktest.categorylist WHERE UserID = ${
-    req.params.UserID
-  };`;
-  let output = connection.query(query, (err, result) => {
-    if (err) {
-      return res.send(err);
-    } else {
-      return res.json({
-        data: result
-      });
-    }
-  });
-});
-
-/*
-  Http request for deleting a row from a table based on concatinated
-  string ID.
-*/
-router.delete("/delete/:ID", (req, res) => {
-  let query = `DELETE FROM bookmarks WHERE BookmarkID = ${
-    req.params.ID
-  }`;
-  let output = connection.query(query, (err, result) => {
-    if (err) {
-      return res.send(err);
-    } else {
-      console.log(result);
-      return res.send("Delete has been made");
-    }
-  });
-});
-
-/*
-  Create Database
-*/
-router.get("/createDB/:DatabaseName", (req, res) => {
-  let query = `CREATE DATABASE ${req.params.DatabaseName};`;
-  let output = connection.query(query, (err, result) => {
-    if (err) {
-      return res.send(err);
-    } else {
-      return res.send("Database Created");
-    }
-  });
-});
-
-/*
-  Create Table
-*/
-router.get("/createTable/:TableName", (req, res) => {
-  let query =
-    `CREATE table ${req.params.TableName} (id int NOT NULL AUTO_INCREMENT, name VARCHAR(50), cost int, PRIMARY KEY (id));`;
-  let output = connection.query(query, (err, result) => {
-    if (err) {
-      return res.send(err);
-    } else {
-      return res.send("Table Created");
-    }
-  });
-});
-
-/*
-  Write to a locally hosted csv file.
-*/
-router.get("/addToCSV", (req, res) => {
-  console.log(req.body);
-  return;
-})
 
 module.exports = router;

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import uuid from "uuid";
 import axios from "axios";
-import { addToCSV } from "../actions/itemActions";
+import { addInfoToDB, addToCSV } from "../actions/itemActions";
 import {
   Button,
   Modal,
@@ -23,13 +23,7 @@ class itemModal extends Component {
     song: "",
     info: ""
   };
-  /*
-  constructor(props){
-    super(props);
-    this.onSubmit = this.onSubmit.bind(this);
-    this.helper = this.helper.bind(this);
-  }
-  */
+
   toggle = () => {
     this.setState({
       modal: !this.state.modal
@@ -58,36 +52,17 @@ class itemModal extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-    let myData = [
-      {
+    let myData = {
         name: "Hello World",
         school: "UWW",
         work: "UWW",
         song: "cool",
         info: "awesome"
-      }
-    ];
-    console.log("correct");
-    this.props.addToCSV(myData);
-    this.toggle();
-    /*
-    e.preventDefault();
-    const newItem = {
-        name: this.state.name,
-        host: this.state.host,
-        user: this.state.user,
-        password: this.state.password,
-        database: this.state.database
     };
-    this.props.addAppDatabase(newItem);
-    this.props.changeToAppDB(newItem);
-    let pingTest = this.props.getAllTables();
-    alert(pingTest);
+    console.log(myData);
+    //this.props.addToCSV(myData);
+    //this.props.addInfoToDB(myData);
     this.toggle();
-    //window.open("http://localhost:3000/bookmark", "something");
-    window.open("http://localhost:3000/new_app", "Something");
-    */
-
   };
 
   render() {
@@ -158,5 +133,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { addToCSV}
+  { addToCSV, addInfoToDB }
 )(itemModal);

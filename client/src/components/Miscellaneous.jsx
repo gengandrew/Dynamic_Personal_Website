@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Media } from "reactstrap";
 import InsertDBModal from "./InsertDBModal";
 import MMM_Research from "../images/UWMadison_ME.png"
+import DogModal from "../components/DogModal_Inline";
 
 class Miscellaneous extends Component {
     render() { 
@@ -54,7 +55,7 @@ class Miscellaneous extends Component {
                         </ul>
                     </p>
                     <p style={{textAlign: "center", marginTop: "2rem", marginBottom: "4rem"}}>
-                        <em>For some photos of cute doggos I found online, see <a className="underLine" href="#">here</a></em>
+                        <em>For some photos of cute doggos I found online, see <DogModal text="here"/>.</em>
                     </p>     
                     </div>
                 </Container>

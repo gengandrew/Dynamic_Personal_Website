@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Media } from "reactstrap";
 import InsertDBModal from "./InsertDBModal";
-import poetry from "../images/Code_Poetry.jpg";
+import Doom3SC from "../images/Doom3SC.png";
 
 class Skills extends Component {
     render() { 
@@ -24,6 +24,18 @@ class Skills extends Component {
                             </ul>
                         </div>
                     </nav>
+                </Row>
+                <Row>
+                    <Col></Col>
+                    <Col>
+                        <Media><Media>
+                            <Media object src={Doom3SC} style={{maxHeight: 10000, maxWidth: 10000, marginRight: "1rem"}} alt="BadgerBot" id="HeadImg"/>
+                        </Media></Media>
+                        <div style={{float: "right", fontSize: "11px", fontStyle: "italic"}} id="HeadImg_Link">
+                            - Check out <a className="underLine" href="https://kotaku.com/the-exceptional-beauty-of-doom-3s-source-code-5975610">this</a> kotaku article on the quality of Doom 3 source code.
+                        </div>
+                        </Col>                
+                    <Col></Col>
                 </Row>
                 <Container>
                     <div style={{marginTop: "2rem"}}>
