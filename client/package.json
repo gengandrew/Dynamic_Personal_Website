@@ -1,5 +1,6 @@
 {
   "_comment": " \"proxy\": \"http://localhost:5000\" ",
+  "homepage": "https://pages.cs.wisc.edu/~ageng/",
   "name": "react_sql_boilerplate",
   "version": "0.1.0",
   "private": true,
