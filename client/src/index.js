@@ -26,13 +26,13 @@ ReactDOM.render(
     <BrowserRouter>
       <Switch>
         <Route path="/" component={App} exact />
-        <Route path="/Education" component={EducationPage} exact />
-        <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
-        <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
-        <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
-        <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
-        <Route path="/Miscellaneous" component={MiscPage} exact />
-        <Route component={ErrorPage} />
+        <Route path="/~ageng/Education" component={EducationPage} exact />
+        <Route path="/~ageng/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
+        <Route path="/~ageng/Work_and_Internship_Experiences" component={WorkPage} exact />
+        <Route path="/~ageng/Personal_and_Group_Endevors" component={ProjectPage} exact />
+        <Route path="/~ageng/Hobbies_and_Intrestes" component={HobbiesPage} exact />
+        <Route path="/~ageng/Miscellaneous" component={MiscPage} exact />
+        <Route component={App} />
       </Switch>
     </BrowserRouter>
   </Provider>,
