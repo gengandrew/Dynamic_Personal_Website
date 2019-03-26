@@ -5,7 +5,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, BrowserRouter, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store";
 import App from "./App";
@@ -23,6 +23,32 @@ import "./css/stylesheet.css";
 
 ReactDOM.render(
   <Provider store={store}>
+    <HashRouter>
+      <Route path="/" component={App} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Education" component={EducationPage} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
+    </HashRouter>
+    <HashRouter>
+      <Route path="/Miscellaneous" component={MiscPage} exact />
+    </HashRouter>
+  </Provider>,
+  document.getElementById("root")
+);
+
+/*
     <BrowserRouter>
       <Switch>
         <Route path="/" component={App} exact />
@@ -35,9 +61,7 @@ ReactDOM.render(
         <Route component={App} />
       </Switch>
     </BrowserRouter>
-  </Provider>,
-  document.getElementById("root")
-);
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -28,25 +28,25 @@ class Sidebar extends Component {
         </div>
         <ul className="list-unstyled components">
           <li>
-            <a href="/">Home</a>
+            <a href="/~ageng/#/">Home</a>
           </li>
           <li>
-            <a href="/Education">Education</a>
+            <a href="/~ageng/#/Education">Education</a>
           </li>
           <li>
-            <a href="/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
+            <a href="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
           </li>
           <li>
-            <a href="/Work_and_Internship_Experiences">Work and Internship Experiences</a>
+            <a href="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
           </li>
           <li>
-            <a href="/Personal_and_Group_Endevors">Personal and Group Endevors</a>
+            <a href="/~ageng/#/Personal_and_Group_Endevors">Personal and Group Endevors</a>
           </li>
           <li>
-            <a href="/Hobbies_and_Intrestes">Hobbies and Intrestes</a>
+            <a href="/~ageng/#/Hobbies_and_Intrestes">Hobbies and Intrestes</a>
           </li>
           <li>
-            <a href="/Miscellaneous">Miscellaneous</a>
+            <a href="/~ageng/#/Miscellaneous">Miscellaneous</a>
           </li>
           <li className="active">
             <a
