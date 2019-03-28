@@ -48,7 +48,7 @@ class Hobbies extends Component {
                         </ul>
                         <ul>
                             Additionally, music has also played a significant role in my daily life, with myself playing the trumpet and piano throughout the majority of my childhood. 
-                            It is also a life long goal of mine to live and experience life in as many contries as possible. I love enveloping myself in a new culture and my current goal is to visit South America, specifically Peru, whenever I get the opertunity to do so.         
+                            It is also a life long goal of mine to live and experience life in as many countries as possible. I love enveloping myself in a new culture and my current goal is to visit South America, specifically Peru, whenever I get the opportunity to do so.         
                         </ul>
                     </p>
                     </div>

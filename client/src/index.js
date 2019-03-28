@@ -24,25 +24,16 @@ import "./css/stylesheet.css";
 ReactDOM.render(
   <Provider store={store}>
     <HashRouter>
-      <Route path="/" component={App} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Education" component={EducationPage} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
-    </HashRouter>
-    <HashRouter>
-      <Route path="/Miscellaneous" component={MiscPage} exact />
+      <Switch>
+        <Route path="/" component={App} exact />
+        <Route path="/Education" component={EducationPage} exact />
+        <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
+        <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
+        <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
+        <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
+        <Route path="/Miscellaneous" component={MiscPage} exact />
+        <Route path="/*" component={ErrorPage} exact />
+        </Switch>
     </HashRouter>
   </Provider>,
   document.getElementById("root")

@@ -40,10 +40,10 @@ class Sidebar extends Component {
             <a href="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
           </li>
           <li>
-            <a href="/~ageng/#/Personal_and_Group_Endevors">Personal and Group Endevors</a>
+            <a href="/~ageng/#/Personal_and_Group_Endeavors">Personal and Group Endeavors</a>
           </li>
           <li>
-            <a href="/~ageng/#/Hobbies_and_Intrestes">Hobbies and Intrestes</a>
+            <a href="/~ageng/#/Hobbies_and_Interests">Hobbies and Interests</a>
           </li>
           <li>
             <a href="/~ageng/#/Miscellaneous">Miscellaneous</a>

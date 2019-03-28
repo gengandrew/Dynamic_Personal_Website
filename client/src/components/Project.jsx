@@ -49,7 +49,7 @@ class Project extends Component {
                         </ul>
                         <ul><em>Team Envoy (Digital Pen Project):</em>
                             <ul>
-                                <li>Gathered a group of 3 for the creation of a motion sensory Digital Pen which transfers hand drawn notes to digital formats.</li>
+                                <li>Gathered a group of 3 for the creation of a motion sensor Digital Pen which transfers hand drawn notes to digital formats.</li>
                                 <li>Manufactured a working prototype utilizing Arduinos and accelerometers.</li>
                                 <li>Utilized Fourier analysis and Kalman Filters in conjunction with accelerometer inputs, to read 3D motion.</li>
                             </ul>
@@ -64,7 +64,7 @@ class Project extends Component {
                         <ul><em>EX Games (Mobile Video Game Development):</em>
                             <ul>
                                 <li>Guiding member in a group of 6 in the creation of an open world fantasy RPG.</li>
-                                <li>Team lead in story board, combat mechanics, and general AI.</li>
+                                <li>Team lead in storyboard, combat mechanics, and general AI.</li>
                                 <li>General AI and Combat mechanics development.</li>
                             </ul>
                         </ul>

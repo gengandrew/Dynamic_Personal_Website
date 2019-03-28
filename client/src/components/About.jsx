@@ -16,7 +16,7 @@ class About extends Component {
             </p>
             <p>
                 If you wouldn't mind taking this <SurveyInLine /> so that I can learn more about you that would be wonderful.
-                In the mean time please feel free to browse through my webapge or simply see some <DogModal text="cute doggos"/> I found online.
+                In the meantime please feel free to browse through my webpage or simply see some <DogModal text="cute doggos"/> I found online.
             </p>
             </div> 
          );

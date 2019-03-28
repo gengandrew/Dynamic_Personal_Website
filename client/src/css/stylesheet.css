@@ -1,5 +1,5 @@
 a.underLine{ 
-  color: inherit; border-bottom: 1px dashed #ccc;
+  color: inherit; border-bottom: 1px dashed #b7b7b7;
 }
 
 a.underLine:hover, a.underLine:active, a.underLine:focus{ 
@@ -175,7 +175,7 @@ p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
-  color: #999;
+  color: #7b7b7b;
 }
 
 a,
@@ -246,5 +246,5 @@ ul ul a {
 ul ul a.underLine {
   padding-left: 0px !important;
   background: transparent;
-  color: inherit; border-bottom: 1px dashed #ccc;
+  color: inherit; border-bottom: 1px dashed #b7b7b7;
 }

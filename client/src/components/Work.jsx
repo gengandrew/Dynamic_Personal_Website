@@ -53,7 +53,7 @@ class Work extends Component {
                                 <li>Managed quality assessment, UX interviews, and software validation for applications.</li>
                             </ul>
                         </ul>
-                        <ul><em><a className="underLine" href="https://hci.cs.wisc.edu/">HCI Labratory</a> (Undergraduate Researcher) <i>(2018 ~ present)</i></em>
+                        <ul><em><a className="underLine" href="https://hci.cs.wisc.edu/">HCI Laboratory</a> (Undergraduate Researcher) <i>(2018 ~ present)</i></em>
                             <ul>
                                 <li>Co-investigator for personal assistant project involving specialized vocal speech patterns.</li>
                                 <li>Designed case study procedures and conducted in person experiments.</li>
@@ -67,11 +67,11 @@ class Work extends Component {
                                 <li>Assisting cybersecurity officers with monthly reports and DOIT events.</li>    
                             </ul>
                         </ul>
-                        <ul><em>Dr. Ahna Skop's Labratory (Undergraduate Technition/Researcher) <i>(December 2016 ~ January 2018)</i></em>
+                        <ul><em>Dr. Ahna Skop's Laboratory (Undergraduate Technician/Researcher) <i>(December 2016 ~ January 2018)</i></em>
                             <ul>
                                 <li>Programming and maintaining laboratory computers, equipments, and database.</li>
-                                <li>Responsible for Cellular Imagining and Embryonic Lethality research and procedures (Specifically on: VHL-1, RNP-4, VPS24, VAB-3, CGH-1, and ATX-2).</li>                                
-                                <li>Maintaining labratory chemicals, solutions, plates, and etc.</li>
+                                <li>Responsible for Cellular Imaging and Embryonic Lethality research and procedures (Specifically on: VHL-1, RNP-4, VPS24, VAB-3, CGH-1, and ATX-2).</li>                                
+                                <li>Maintaining laboratory chemicals, solutions, plates, and etc.</li>
                             </ul>
                         </ul>
                     </p>
