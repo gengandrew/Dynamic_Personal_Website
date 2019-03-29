@@ -25,7 +25,7 @@ class Education extends Component {
                         </div>
                     </nav>
                 </Row>
-                <Container>
+                <Container style={{marginBottom: "4rem"}}>
                     <Row>
                         <Col></Col>
                         <Col>

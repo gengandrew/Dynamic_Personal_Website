@@ -4,6 +4,13 @@ import InsertDBModal from "./InsertDBModal";
 import Doom3SC from "../images/Doom3SC.png";
 
 class Skills extends Component {
+    divStyle = {
+        fontFamily: "Poppins, sans-serif",
+        fontSize: "1.1em",
+        fontWeight: "300",
+        lineHeight: "1.7em",
+        color: "#7b7b7b"
+    }
     render() { 
         return (
             <div id="content">
@@ -37,15 +44,15 @@ class Skills extends Component {
                         </Col>                
                     <Col></Col>
                 </Row>
-                <Container>
+                <Container style={{marginBottom: "4rem"}}>
                     <div style={{marginTop: "2rem"}}>
                     <h3>Core Skills and Languages</h3>
-                    <p> 
+                    <div style={this.divStyle}> 
                         <ul><strong>Programming Languages:</strong> Java, C, C#, C++, Python, JavaScript, Matlab, SQL, Latex, html, and css.</ul>
                         <ul><strong>General Programming:</strong> Git, .NET framework, React Framework, Node.js, Linux/Unix</ul>
                         <ul><strong>Reserach Skills:</strong> Data Analysis, Case Study Interviews, Large Scale Surveys, Research Design, Laboratory and Workshop skills.</ul>
                         <ul><strong>General Skills:</strong> Project Management, and Fluency in English and Chinese</ul>                                
-                    </p>
+                    </div>
                     </div>
                 </Container>
                 <Container id="footer">

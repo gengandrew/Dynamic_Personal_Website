@@ -29,17 +29,18 @@ ReactDOM.render(
         <Route path="/Education" component={EducationPage} exact />
         <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
         <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
-        <Route path="/Personal_and_Group_Endevors" component={ProjectPage} exact />
-        <Route path="/Hobbies_and_Intrestes" component={HobbiesPage} exact />
+        <Route path="/Personal_and_Group_Endeavors" component={ProjectPage} exact />
+        <Route path="/Hobbies_and_Interests" component={HobbiesPage} exact />
         <Route path="/Miscellaneous" component={MiscPage} exact />
         <Route path="/*" component={ErrorPage} exact />
-        </Switch>
+      </Switch>
     </HashRouter>
   </Provider>,
   document.getElementById("root")
 );
 
 /*
+    <Route path="/Miscellaneous" render={(props) => <MiscPage />} exact/>
     <BrowserRouter>
       <Switch>
         <Route path="/" component={App} exact />

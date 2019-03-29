@@ -3,6 +3,12 @@ import {Container, Row, Col, Media} from "reactstrap";
 import SadDog from "../images/sadDog.jpg"
 
 class ErrorPage extends Component {
+  ReloadWindow = e => {
+    window.location.assign(e.target.name);
+    setTimeout(function () {
+      window.location.reload();
+    }, 8);
+  }
   render() {
     return (
       <Container style={{paddingTop: "2rem"}}>
@@ -13,7 +19,7 @@ class ErrorPage extends Component {
         </Row>
         <Row>
           <Col xs="1"></Col>
-          <Col><div style={{textAlign: "center", fontSize: "18px"}}>Click <a className="underLine" href="/~ageng/">here</a> to go back to the homepage.</div></Col>
+          <Col><div style={{textAlign: "center", fontSize: "18px"}}>Click <a className="underLine" onClick={this.ReloadWindow} name="/~ageng/#/">here</a> to go back to the homepage.</div></Col>
           <Col xs="1"></Col>
         </Row>
         <Row>

@@ -11,6 +11,13 @@ class Sidebar extends Component {
     this.state = { collapse: false, background: "#eb6864" };
   }
 
+  ReloadWindow = e => {
+    window.location.assign(e.target.name);
+    setTimeout(function () {
+      window.location.reload();
+    }, 8);
+  }
+
   toggle() {
     if (this.state.collapse) {
       this.setState({ background: "#eb6864" });
@@ -28,25 +35,25 @@ class Sidebar extends Component {
         </div>
         <ul className="list-unstyled components">
           <li>
-            <a href="/~ageng/#/">Home</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/">Home</a>
           </li>
           <li>
-            <a href="/~ageng/#/Education">Education</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Education">Education</a>
           </li>
           <li>
-            <a href="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
           </li>
           <li>
-            <a href="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
           </li>
           <li>
-            <a href="/~ageng/#/Personal_and_Group_Endeavors">Personal and Group Endeavors</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Personal_and_Group_Endeavors">Personal and Group Endeavors</a>
           </li>
           <li>
-            <a href="/~ageng/#/Hobbies_and_Interests">Hobbies and Interests</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Hobbies_and_Interests">Hobbies and Interests</a>
           </li>
           <li>
-            <a href="/~ageng/#/Miscellaneous">Miscellaneous</a>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Miscellaneous">Miscellaneous</a>
           </li>
           <li className="active">
             <a
