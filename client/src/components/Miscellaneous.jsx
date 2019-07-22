@@ -41,14 +41,17 @@ class Miscellaneous extends Component {
                     <p>
                         <ul><strong>Advance Computer Science Courses Taken:</strong>
                             <ul>
-                                <li><em>CS 540 (Introduction to Artificial Intelligence)</em></li>
-                                <li><em>CS 532 (Matrix Methods in Machine Learning)</em></li>
                                 <li><em>CS 577 (Introduction to Algorithms)</em></li>
+                                <li><em>CS 540 (Introduction to Artificial Intelligence)</em></li>
+                                <li><em>CS 537 (Introduction to Operating Systems)</em></li>
+                                <li><em>CS 532 (Matrix Methods in Machine Learning)</em></li>
                                 <li><em>CS 525 (Linear Programming Methods)</em></li>
+                                <li><em>CS 520 (Introduction to the Theory of Computing)</em></li>
                             </ul>
                         </ul>
                         <ul><strong>Advance Mathematics Courses Taken:</strong>
                             <ul>
+                                <li><em>Math 521 (Analysis I)</em></li>
                                 <li><em>Math 431 (Introduction to the Theory of Probability)</em></li>
                                 <li><em>Math 421 (The Theory of Single Variable Calculus)</em></li>
                             </ul>

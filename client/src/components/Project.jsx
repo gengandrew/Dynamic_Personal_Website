@@ -40,18 +40,27 @@ class Project extends Component {
                     <div>
                     <h3>Personal and Group Endevors</h3>
                     <p>
-                        <ul><em>Devtool Interface</em>
-                            <ul>
-                                <li>Web Application for interfacing between a traditional SQL/MongoDB server and a Web UI.</li>
-                                <li>Built with the React Framework.</li>
-                                <li>Open source project can be found <a className="underLine" href="https://github.com/gengandrew/Devtool_Interface">here</a>.</li>
-                            </ul>
-                        </ul>
                         <ul><em>Team Envoy (Digital Pen Project):</em>
                             <ul>
                                 <li>Gathered a group of 3 for the creation of a motion sensor Digital Pen which transfers hand drawn notes to digital formats.</li>
                                 <li>Manufactured a working prototype utilizing Arduinos and accelerometers.</li>
                                 <li>Utilized Fourier analysis and Kalman Filters in conjunction with accelerometer inputs, to read 3D motion.</li>
+                            </ul>
+                        </ul>
+                        <ul><em>Race Accross America:</em>
+                            <ul>
+                                <li>Developer within a team of 15 Engineer and Data Scientists working on an application for Dave Haase in the Race Across America competition.</li>
+                                <li>Partnered with companies such as Garmin, Mapbox, The Weather Company and UBIX.ai for technology and support.</li>
+                                <li>Application developed utilizing a React/Typescript Front-End and an AWS backend.</li>
+                                <li>Showcase webpage can be found <a className="underLine" href="http://raam.davehaase.com">here</a></li>
+                                <li>Source code can be found <a className="underLine" href="https://github.com/raam-2019">here</a></li>
+                            </ul>
+                        </ul>
+                        <ul><em>Devtool Interface:</em>
+                            <ul>
+                                <li>Web Application for interfacing between a traditional SQL/MongoDB server and a Web UI.</li>
+                                <li>Built with the React Framework.</li>
+                                <li>Open source project can be found <a className="underLine" href="https://github.com/gengandrew/Devtool_Interface">here</a>.</li>
                             </ul>
                         </ul>
                         <ul><em>BadgerLoops and Badgerbots:</em>

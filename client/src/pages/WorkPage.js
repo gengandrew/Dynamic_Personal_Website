@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Sidebar from "../components/Sidebar2";
+import Sidebar from "../components/Sidebar";
 import Work from "../components/Work";
 import "jquery";
 import "bootstrap/dist/js/bootstrap";

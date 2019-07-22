@@ -43,13 +43,13 @@ class Work extends Component {
                     <p>
                         <ul><em><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a> (Software Intern) <i>(Summer 2019)</i></em>
                             <ul>
-                                <li>Incoming Intern for the Summer of 2019</li>
+                                <li>Currently interning at IBM in the Silicon Valley Lab location.</li>
                             </ul>
                         </ul>
                         <ul><em><a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> (Software Engineering Intern) <i>(Summer 2018)</i></em>
                             <ul>
                                 <li>Full Stack Developer and Project Manager for TimeTracker.</li>
-                                <li>Application development with C# (.Net) and SQL Express.</li>
+                                <li>Application development with C# <em>(.Net Framework)</em> and SQL Express backend.</li>
                                 <li>Managed quality assessment, UX interviews, and software validation for applications.</li>
                             </ul>
                         </ul>
@@ -62,15 +62,14 @@ class Work extends Component {
                         </ul>
                         <ul><em><a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">DOIT Office of Cybersecurity</a> (Cybersecurity Intern) <i>(2017 ~ present)</i></em>
                             <ul>
-                                <li>Improving on existing scripts and remodeling concurrent internal programs.</li>
-                                <li>Providing educational and awareness information regarding to cybersecurity around Campus.</li>
-                                <li>Assisting cybersecurity officers with monthly reports and DOIT events.</li>    
+                                <li>Part time security analyst and developer for the Office of Cybersecurity.</li>
+                                <li>Assisting security officers with weekly and monthly reports on security incidents</li>
+                                <li>Building on existing scripts and remodeling concurrently used internal applications.</li>    
                             </ul>
                         </ul>
-                        <ul><em>Dr. Ahna Skop's Laboratory (Undergraduate Technician/Researcher) <i>(December 2016 ~ January 2018)</i></em>
+                        <ul><em><a className="underLine" href="http://skoplab.weebly.com/ahna-skop.html">Dr. Ahna Skop's Laboratory</a> (Undergraduate Technician) <i>(December 2016 ~ January 2018)</i></em>
                             <ul>
-                                <li>Programming and maintaining laboratory computers, equipments, and database.</li>
-                                <li>Responsible for Cellular Imaging and Embryonic Lethality research and procedures (Specifically on: VHL-1, RNP-4, VPS24, VAB-3, CGH-1, and ATX-2).</li>                                
+                                <li>Maintaining laboratory computers, equipments, and database.</li>
                                 <li>Maintaining laboratory chemicals, solutions, plates, and etc.</li>
                             </ul>
                         </ul>

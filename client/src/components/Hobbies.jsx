@@ -42,13 +42,19 @@ class Hobbies extends Component {
                     <h3>Hobbies and Intrestes</h3>
                     <p>
                         <ul>
-                            I have, throughout my life, had an almost unhealthy love for reading and writing fantasy and science fiction novels. 
-                            Some of my must reads include: any and all of Brandon Sanderson's novels, but especially the <strong><a className="underLine" href="https://www.amazon.com/gp/product/B003P2WO5E/ref=series_dp_rw_ca_1">Stormlight Archive</a></strong> series,
-                            Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Frank Herbert's <strong><a className="underLine" href="https://www.amazon.com/Dune-Frank-Herbert-ebook/dp/B00B7NPRY8">Dune</a></strong> series.
+                           I have always had an unhealthy love for reading. I will digest anything ranging from fantasy and science fiction to bibliographies and alternative history. 
+                           Some of my must reads include: any and all of Brandon Sanderson's novels, but especially the <strong><a className="underLine" href="https://www.amazon.com/gp/product/B003P2WO5E/ref=series_dp_rw_ca_1">Stormlight Archive</a></strong> series,
+                           Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Walter Isaacson’s <strong><a className="underLine" href="https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150">Leonardo da Vinci</a></strong> bibliography.
                         </ul>
                         <ul>
-                            Additionally, music has also played a significant role in my daily life, with myself playing the trumpet and piano throughout the majority of my childhood. 
-                            It is also a life long goal of mine to live and experience life in as many countries as possible. I love enveloping myself in a new culture and my current goal is to visit South America, specifically Peru, whenever I get the opportunity to do so.         
+                            Music has also played a significant role in my daily life, with myself playing the trumpet and piano throughout the majority of my childhood. 
+                            It is also a life long goal of mine to live and experience life in as many countries as possible. I hope to someday get to visit South America, specifically Peru, whenever I get the opportunity to do so.         
+                        </ul>
+                        <ul>
+                            If you or your friends are interested in a good laugh at terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of terrible writing imaginable.
+                        </ul>
+                        <ul>
+                            Otherwise if your interested in being hungary, you can follow my adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which follows my travels in an attempt to gain enough weight to eventually self collapse into a black hole.
                         </ul>
                     </p>
                     </div>

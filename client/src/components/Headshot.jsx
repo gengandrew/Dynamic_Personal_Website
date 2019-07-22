@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 import Portrait from "../images/Andrew.jpg";
+import Resume from "../documents/Website Resume.pdf"
 
 class Headshot extends Component {
     imagestyle = {
@@ -37,8 +38,8 @@ class Headshot extends Component {
                     <Media>
                         <b>
                             <a className="underLine" href="https://github.com/gengandrew">Github</a> | 
-                            <a className="underLine" href="~/../documents/Resume.pdf"> Resume</a> | 
-                            <a className="underLine" href="https://www.linkedin.com/in/andrew-geng-b7a337135/"> Linkedin</a>
+                            <a className="underLine" href={Resume}> Resume</a> | 
+                            <a className="underLine" href="https://www.linkedin.com/in/andrew-geng/"> Linkedin</a>
                         </b>
                     </Media>
                 </Media>

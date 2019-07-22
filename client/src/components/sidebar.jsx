@@ -8,14 +8,33 @@ class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
-    this.state = { collapse: false, background: "#7386d5" };
+    this.state = { collapse: false, background: "#eb6864" };
+  }
+
+  ReloadWindow = e => {
+    window.location.assign(e.target.name);
+    setTimeout(function () {
+      window.location.reload();
+    }, 8);
+  }
+
+  onEnterCursor = e => {
+    this.setState({ background: "#fff", color: "#ec4f5f" });
+  }
+  
+  onExitCursor = e => {
+    if(this.state.collapse) {
+      this.setState({ background: "#ec4f5f", color: "#fff" });
+    } else {
+      this.setState({ background: "#eb6864", color: "#fff" });
+    }
   }
 
   toggle() {
     if (this.state.collapse) {
-      this.setState({ background: "#7386d5" });
+      this.setState({ background: "#eb6864" });
     } else {
-      this.setState({ background: "#6d7fcc" });
+      this.setState({ background: "#ec4f5f", color: "#fff" });
     }
     this.setState({ collapse: !this.state.collapse });
   }
@@ -24,48 +43,57 @@ class Sidebar extends Component {
     return (
       <nav id="sidebar">
         <div className="sidebar-header">
-          <h3>Awesome Content</h3>
+          <h3>Andrew's Awesome Content</h3>
         </div>
         <ul className="list-unstyled components">
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/">Home</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Education">Education</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Personal_and_Group_Endeavors">Personal and Group Endeavors</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Hobbies_and_Interests">Hobbies and Interests</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} name="/~ageng/#/Miscellaneous">Miscellaneous</a>
+          </li>
           <li className="active">
             <a
               href="#placeHolder"
               data-toggle="collapse"
               aria-expanded="false"
               className="dropdown-toggle"
-              onClick={this.toggle}
               style={this.state}
+              id="dropDown"
+              onPointerEnter={this.onEnterCursor}
+              onPointerLeave={this.onExitCursor}
+              onClick={this.toggle}
             >
-              Bookmarks
+              Further Reads
             </a>
             <Collapse isOpen={this.state.collapse}>
-              <ul className="list-unstyled">
+            <ul className="list-unstyled">
                 <li>
-                  <a href="https://www.google.com">Placeholder</a>
+                  <a href="https://uw-upl.github.io/">Undergraduate Project Lab</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com">Placeholder</a>
+                  <a href="https://hci.cs.wisc.edu/">Wisconsin HCI Lab</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com">Placeholder</a>
+                  <a href="http://skoplab.weebly.com/ahna-skop.html">Skop Lab</a>
                 </li>
               </ul>
             </Collapse>
-          </li>
-          <li>
-            <a href="/">App #1</a>
-          </li>
-          <li>
-            <a href="/">App #2</a>
-          </li>
-          <li>
-            <a href="/">App #3</a>
-          </li>
-          <li>
-            <a href="/">App #4</a>
-          </li>
-          <li>
-            <a href="/">App #5</a>
           </li>
         </ul>
       </nav>

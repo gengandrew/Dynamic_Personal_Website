@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "reactstrap";
-import Sidebar from "../components/Sidebar2";
+import Sidebar from "../components/Sidebar";
 import Skills from "../components/Skills";
 import "jquery";
 import "bootstrap/dist/js/bootstrap";
