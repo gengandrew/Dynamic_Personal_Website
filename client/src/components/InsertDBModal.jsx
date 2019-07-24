@@ -65,7 +65,7 @@ class itemModal extends Component {
   render() {
     return (
       <React.Fragment>
-        <a className="nav-link" onClick={this.toggle}>
+        <a className="nav-link" onClick={this.toggle} style={{cursor: "pointer"}}>
           Survey
         </a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>

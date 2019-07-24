@@ -94,7 +94,7 @@ class DogModal extends Component {
     });
     return (
       <React.Fragment>
-        <a className="underLine" onClick={this.toggle}>
+        <a className="underLine" onClick={this.toggle} style={{cursor: "pointer"}}>
           {this.props.text}
         </a>
         <Modal isOpen={this.state.modal} toggle={this.toggle} size="lg">

@@ -65,7 +65,7 @@ class itemModal_Inline extends Component {
   render() {
     return (
       <React.Fragment>
-        <a className="underLine" onClick={this.toggle}>
+        <a className="underLine" onClick={this.toggle} style={{cursor: "pointer"}}>
           Survey
         </a>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
