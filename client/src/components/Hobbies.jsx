@@ -42,7 +42,7 @@ class Hobbies extends Component {
                     <h3>Hobbies and Intrestes</h3>
                     <p>
                         <ul>
-                           I have always had an unhealthy love for reading. I will digest anything ranging from fantasy and science fiction to bibliographies and alternative history. 
+                           Reading has always been a favorite past time of mine; I will digest anything ranging from fantasy and science fiction to bibliographies and alternative history. 
                            Some of my must reads include: any and all of Brandon Sanderson's novels, but especially the <strong><a className="underLine" href="https://www.amazon.com/gp/product/B003P2WO5E/ref=series_dp_rw_ca_1">Stormlight Archive</a></strong> series,
                            Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Walter Isaacson’s <strong><a className="underLine" href="https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150">Leonardo da Vinci</a></strong> bibliography.
                         </ul>
@@ -54,7 +54,7 @@ class Hobbies extends Component {
                             If you or your friends are interested in a good laugh at terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of terrible writing imaginable.
                         </ul>
                         <ul>
-                            Otherwise if your interested in being hungary, you can follow my adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which follows my travels in an attempt to gain enough weight to eventually self collapse into a black hole.
+                            Otherwise if your interested in being hungary, you can follow my traveling adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which chronicles my attempts to gain enough weight to eventually self collapse into a black hole.
                         </ul>
                     </p>
                     </div>
@@ -67,7 +67,7 @@ class Hobbies extends Component {
                                 "May not Music be described as the Mathematic of sense, Mathematic as Music of the reason? the soul of each the same!"
                             </p>
                             <p style={{textAlign: "right"}}>
-                                - James Joseph Sylvester (1864)
+                                - James Joseph Sylvester
                             </p>
                         </Col>
                         <Col xs="3"></Col>
