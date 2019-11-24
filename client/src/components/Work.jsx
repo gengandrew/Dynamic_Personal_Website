@@ -43,7 +43,9 @@ class Work extends Component {
                     <p>
                         <ul><em><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a> (Software Intern) <i>(Summer 2019)</i></em>
                             <ul>
-                                <li>Currently interning at IBM in the Silicon Valley Lab location.</li>
+                                <li>Full Stack Software Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
+                                <li>Worked on developing backend Java applications with corresponding test case components.</li>
+                                <li>Significantly improved overall application runtime from 2 hours to 50 min.</li>
                             </ul>
                         </ul>
                         <ul><em><a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> (Software Engineering Intern) <i>(Summer 2018)</i></em>

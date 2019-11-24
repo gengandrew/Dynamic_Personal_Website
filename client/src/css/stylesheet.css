@@ -124,6 +124,19 @@ a[data-toggle="collapse"] {
   transition: opacity 500ms ease-in;
 }
 
+#HomeHeaderSmall{
+  display: none;
+}
+
+@media (max-width: 1047px) {
+  #HomeHeaderLarge{
+    display: none;
+  }
+  #HomeHeaderSmall{
+    display: contents;
+  }
+}
+
 @media (max-width: 768px) {
   #HeadImg{
     display: none;
@@ -175,7 +188,7 @@ p {
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
-  color: #7b7b7b;
+  color: #6f6f6f;
 }
 
 a,
