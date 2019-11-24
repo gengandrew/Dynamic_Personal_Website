@@ -52,8 +52,6 @@ class Hobbies extends Component {
                         </ul>
                         <ul>
                             If you or your friends are interested in a good laugh at terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of terrible writing imaginable.
-                        </ul>
-                        <ul>
                             Otherwise if your interested in being hungary, you can follow my traveling adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which chronicles my attempts to gain enough weight to eventually self collapse into a black hole.
                         </ul>
                     </p>
@@ -64,10 +62,10 @@ class Hobbies extends Component {
                         <Col xs="3"></Col>
                         <Col xs="6">
                             <p>
-                                "May not Music be described as the Mathematic of sense, Mathematic as Music of the reason? the soul of each the same!"
+                                "Life is short. Smile while you still have teeth."
                             </p>
                             <p style={{textAlign: "right"}}>
-                                - James Joseph Sylvester
+                                - Mallory Hopkins
                             </p>
                         </Col>
                         <Col xs="3"></Col>

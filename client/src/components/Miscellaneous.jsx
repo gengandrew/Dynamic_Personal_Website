@@ -62,6 +62,20 @@ class Miscellaneous extends Component {
                     </p>     
                     </div>
                 </Container>
+                <Container id="quote" style={{marginBottom: "4rem"}}>
+                    <Row>
+                        <Col xs="3"></Col>
+                        <Col xs="6">
+                            <p>
+                                "It is a pleasure to be able to quote lines to fit any occasion."
+                            </p>
+                            <p style={{textAlign: "right"}}>
+                                  - Abraham Lincoln
+                            </p>
+                        </Col>
+                        <Col xs="3"></Col>
+                    </Row>
+                </Container>
                 <Container id="footer">
                     Powered by the React Framework and Caffine, source code can be found <a className="underLine" href="https://github.com/gengandrew/Dynamic_Personal_Website">here</a>
                 </Container>

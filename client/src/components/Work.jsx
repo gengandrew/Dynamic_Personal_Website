@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Media } from "reactstrap";
 import InsertDBModal from "./InsertDBModal";
 import BostonSci from "../images/BostonSci.png";
+import IBMImage from "../images/IBM.png"
 
 class Work extends Component {
     render() { 
@@ -31,10 +32,10 @@ class Work extends Component {
                         <Col>
                             <Media>
                                 <Media>
-                                    <Media object src={BostonSci} style={{maxHeight: 1000, maxWidth: 800}} alt="Boston Scientific" id="HeadImg"/>
+                                    <Media object src={IBMImage} style={{maxHeight: 1000, maxWidth: 800}} alt="BM's Silicon Valley Lab" id="HeadImg"/>
                                 </Media>
                             </Media>
-                            <a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html" style={{float: "right", fontSize: "12px", fontStyle: "italic"}} id="HeadImg_Link">- Boston Scientific</a>
+                            <a className="underLine" href="https://www.ibm.com/us-en/?ar=1" style={{float: "right", fontSize: "12px", fontStyle: "italic"}} id="HeadImg_Link">- BM's Silicon Valley Lab</a>
                         </Col>
                         <Col></Col>
                     </Row>
@@ -45,7 +46,7 @@ class Work extends Component {
                             <ul>
                                 <li>Full Stack Software Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
                                 <li>Worked on developing backend Java applications with corresponding test case components.</li>
-                                <li>Significantly improved overall application runtime from 2 hours to 50 min.</li>
+                                <li>Significantly improved runtime from 2 hours to 50 min, in addition to improving general manageability of code base.</li>
                             </ul>
                         </ul>
                         <ul><em><a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> (Software Engineering Intern) <i>(Summer 2018)</i></em>
@@ -77,6 +78,20 @@ class Work extends Component {
                         </ul>
                     </p>
                     </div>
+                </Container>
+                <Container id="quote" style={{marginBottom: "4rem"}}>
+                    <Row>
+                        <Col xs="3"></Col>
+                        <Col xs="6">
+                            <p>
+                                "It's true that hard work never killed anybody, but I figure why take the chance."
+                            </p>
+                            <p style={{textAlign: "right"}}>
+                                - Ronald Reagan
+                            </p>
+                        </Col>
+                        <Col xs="3"></Col>
+                    </Row>
                 </Container>
                 <Container id="footer">
                     Powered by the React Framework and Caffine, source code can be found <a className="underLine" href="https://github.com/gengandrew/Dynamic_Personal_Website">here</a>

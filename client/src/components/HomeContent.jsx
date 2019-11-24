@@ -69,12 +69,14 @@ class HomeContent extends Component {
                 Hello there and welcome to my personal webpage!
                 My name is Andrew Geng and I am an undergraduate at the <a className="underLine" href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
                 studying <a className="underLine" href="https://www.cs.wisc.edu/">Computer Science </a> and <a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a>.
-                I am was was previously a Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> in <a className="underLine" href="#">San Jose, California</a> and 
-                currently I'm working part time for the <a className="underLine" href="https://it.wisc.edu/">UW Division of Information Technology</a> in the <a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">Office of Cybersecurity</a> as 
-                a Cybersecurity Intern.
               </p>
               <p>
-                If you wouldn't mind taking this <SurveyInLine /> so that I can learn more about you.
+                I'm currently working part time for the <a className="underLine" href="https://it.wisc.edu/">UW Division of Information Technology</a> in the <a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">Office of Cybersecurity</a> as a Cybersecurity Intern. 
+                Formerly I worked as a Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> at the <a className="underLine" href="https://developer.ibm.com/dwblog/2017/ibm-silicon-valley-lab-40th-anniversary/">Silicon Valley Lab</a> location in <a className="underLine" href="#">San Jose, California</a>, 
+                and as a Software Intern for <a className="underLine" href="https://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> in <a className="underLine" href="#">Minneapolis, Minnesota</a>.
+              </p>
+              <p>
+                If you wouldn't mind taking this <SurveyInLine /> so that I can learn more about you, then that would be wonderful.
                 In the meantime please feel free to browse through my webpage or simply see some <DogModal text="cute doggos"/> I found online.
               </p>
             </div> 
@@ -84,16 +86,16 @@ class HomeContent extends Component {
       </Container>
       <Container id="quote" style={{marginBottom: "4rem"}}>
         <Row>
-          <Col xs="3"></Col>
-          <Col xs="6">
-            <p>
-            "To me, mathematics, computer science, and the arts are insanely related. They're all creative expressions."
-            </p>
-            <p style={{textAlign: "right"}}>
-              - Sebastian Thrun
-            </p>
-          </Col>
-          <Col xs="3"></Col>
+            <Col xs="3"></Col>
+            <Col xs="6">
+                <p>
+                    "Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes."
+                </p>
+                <p style={{textAlign: "right"}}>
+                    - Jack Handey
+                </p>
+            </Col>
+            <Col xs="3"></Col>
         </Row>
       </Container>
       <Container id="footer">

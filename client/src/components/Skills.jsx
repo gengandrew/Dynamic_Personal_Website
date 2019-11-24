@@ -55,6 +55,20 @@ class Skills extends Component {
                     </div>
                     </div>
                 </Container>
+                <Container id="quote" style={{marginBottom: "4rem"}}>
+                    <Row>
+                        <Col xs="3"></Col>
+                        <Col xs="6">
+                            <p>
+                                "To me, mathematics, computer science, and the arts are insanely related. They're all creative expressions."
+                            </p>
+                            <p style={{textAlign: "right"}}>
+                                  - Sebastian Thrun
+                            </p>
+                        </Col>
+                        <Col xs="3"></Col>
+                    </Row>
+                </Container>
                 <Container id="footer">
                     Powered by the React Framework and Caffine, source code can be found <a className="underLine" href="https://github.com/gengandrew/Dynamic_Personal_Website">here</a>
                 </Container>

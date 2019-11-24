@@ -56,6 +56,20 @@ class Education extends Component {
                     </p>
                     </div>
                 </Container>
+                <Container id="quote" style={{marginBottom: "4rem"}}>
+                    <Row>
+                        <Col xs="3"></Col>
+                        <Col xs="6">
+                            <p>
+                                "If you think education is expensive, try ignorance."
+                            </p>
+                            <p style={{textAlign: "right"}}>
+                                - Derek Bok
+                            </p>
+                        </Col>
+                        <Col xs="3"></Col>
+                    </Row>
+                </Container>
                 <Container id="footer">
                     Powered by the React Framework and Caffine, source code can be found <a className="underLine" href="https://github.com/gengandrew/Dynamic_Personal_Website">here</a>
                 </Container>
