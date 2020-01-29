@@ -41,6 +41,7 @@ class Miscellaneous extends Component {
                     <p>
                         <ul><strong>Advance Computer Science Courses Taken:</strong>
                             <ul>
+                                <li><em>CS 761 (Mathematical Foundations of Machine Learning)</em></li>
                                 <li><em>CS 577 (Introduction to Algorithms)</em></li>
                                 <li><em>CS 540 (Introduction to Artificial Intelligence)</em></li>
                                 <li><em>CS 537 (Introduction to Operating Systems)</em></li>
@@ -49,17 +50,15 @@ class Miscellaneous extends Component {
                                 <li><em>CS 520 (Introduction to the Theory of Computing)</em></li>
                             </ul>
                         </ul>
-                        <ul><strong>Advance Mathematics Courses Taken:</strong>
+                        <ul><strong>Advance Math Courses Taken:</strong>
                             <ul>
+                                <li><em>Math 632 (Introduction to Stochastic Processes)</em></li>
                                 <li><em>Math 521 (Analysis I)</em></li>
                                 <li><em>Math 431 (Introduction to the Theory of Probability)</em></li>
                                 <li><em>Math 421 (The Theory of Single Variable Calculus)</em></li>
                             </ul>
                         </ul>
                     </p>
-                    <p style={{textAlign: "center", marginTop: "2rem", marginBottom: "4rem"}}>
-                        <em>For some photos of cute doggos I found online, see <DogModal text="here"/>.</em>
-                    </p>     
                     </div>
                 </Container>
                 <Container id="quote" style={{marginBottom: "4rem"}}>

@@ -76,7 +76,7 @@ class HomeContent extends Component {
                 and as a Software Intern for <a className="underLine" href="https://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> in <a className="underLine" href="#">Minneapolis, Minnesota</a>.
               </p>
               <p>
-                If you wouldn't mind taking this <SurveyInLine /> so that I can learn more about you, then that would be wonderful.
+                If you wouldn't mind taking this <SurveyInLine /> so I can learn more about you, then that would be wonderful.
                 In the meantime please feel free to browse through my webpage or simply see some <DogModal text="cute doggos"/> I found online.
               </p>
             </div> 

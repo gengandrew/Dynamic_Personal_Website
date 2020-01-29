@@ -35,11 +35,11 @@ class Work extends Component {
                                     <Media object src={IBMImage} style={{maxHeight: 1000, maxWidth: 800}} alt="BM's Silicon Valley Lab" id="HeadImg"/>
                                 </Media>
                             </Media>
-                            <a className="underLine" href="https://www.ibm.com/us-en/?ar=1" style={{float: "right", fontSize: "12px", fontStyle: "italic"}} id="HeadImg_Link">- BM's Silicon Valley Lab</a>
+                            <a className="underLine" href="https://www.ibm.com/us-en/?ar=1" style={{float: "right", fontSize: "12px", fontStyle: "italic"}} id="HeadImg_Link">- IBM's Silicon Valley Lab</a>
                         </Col>
                         <Col></Col>
                     </Row>
-                    <div style={{marginTop: "0"}}>
+                    <div style={{marginTop: "1rem"}}>
                     <h3 id="Work_Experiences">Work and Internship Experiences</h3>
                     <p>
                         <ul><em><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a> (Software Intern) <i>(Summer 2019)</i></em>
@@ -72,7 +72,7 @@ class Work extends Component {
                         </ul>
                         <ul><em><a className="underLine" href="http://skoplab.weebly.com/ahna-skop.html">Dr. Ahna Skop's Laboratory</a> (Undergraduate Technician) <i>(December 2016 ~ January 2018)</i></em>
                             <ul>
-                                <li>Maintaining laboratory computers, equipments, and database.</li>
+                                <li>Maintaining laboratory computers, equipments, and databases.</li>
                                 <li>Maintaining laboratory chemicals, solutions, plates, and etc.</li>
                             </ul>
                         </ul>

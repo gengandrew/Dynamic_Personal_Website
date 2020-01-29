@@ -58,7 +58,7 @@ class Project extends Component {
                         </ul>
                         <ul><em>Devtool Interface:</em>
                             <ul>
-                                <li>Web Application for interfacing between a traditional SQL/MongoDB server and a Web UI.</li>
+                                <li>Web Application for interfacing between a traditional SQL server and a Web UI.</li>
                                 <li>Built with the React Framework.</li>
                                 <li>Open source project can be found <a className="underLine" href="https://github.com/gengandrew/Devtool_Interface">here</a>.</li>
                             </ul>

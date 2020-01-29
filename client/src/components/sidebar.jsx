@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Collapse } from "reactstrap";
+import { Collapse, Col, Row } from "reactstrap";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/stylesheet.css";
@@ -96,6 +96,11 @@ class Sidebar extends Component {
             </Collapse>
           </li>
         </ul>
+        {/* <Row style={{bottom: "0", position: "absolute", maxWidth: "250px"}}>
+          <Col style={{minWidth: "83.3px"}} xs="4">Hello</Col>
+          <Col style={{minWidth: "83.3px"}} xs="4">Hello</Col>
+          <Col style={{minWidth: "83.3px"}} xs="4">Hello</Col>
+        </Row> */}
       </nav>
     );
   }

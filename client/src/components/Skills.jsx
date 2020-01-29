@@ -48,9 +48,9 @@ class Skills extends Component {
                     <div style={{marginTop: "2rem"}}>
                     <h3>Core Skills and Languages</h3>
                     <div style={this.divStyle}> 
-                        <ul><strong>Programming Languages:</strong> Java, C, C#, C++, Python, JavaScript, Matlab, SQL, Latex, html, and css.</ul>
-                        <ul><strong>General Programming:</strong> Git, .NET framework, React Framework, Node.js, Linux/Unix</ul>
-                        <ul><strong>Reserach Skills:</strong> Data Analysis, Case Study Interviews, Large Scale Surveys, Research Design, Laboratory and Workshop skills.</ul>
+                        <ul><strong>Programming Languages:</strong> Java, C, C#, C++, Python, JavaScript, Matlab, SQL, Latex, html, css</ul>
+                        <ul><strong>General Programming:</strong> Git, .NET framework, React Framework, TensorFlow, Linux/Unix</ul>
+                        <ul><strong>Research Skills:</strong> Data Analysis, Case Study Interviews, Large Scale Surveys, Research Design, Laboratory and Workshop skills</ul>
                         <ul><strong>General Skills:</strong> Project Management, and Fluency in English and Chinese</ul>                                
                     </div>
                     </div>

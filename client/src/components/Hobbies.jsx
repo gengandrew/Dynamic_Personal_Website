@@ -39,10 +39,10 @@ class Hobbies extends Component {
                 </Row>
                 <Container>
                     <div style={{marginTop: "1rem"}}>
-                    <h3>Hobbies and Intrestes</h3>
+                    <h3>Hobbies and Interests</h3>
                     <p>
                         <ul>
-                           Reading has always been a favorite past time of mine; I will digest anything ranging from fantasy and science fiction to bibliographies and alternative history. 
+                           Reading has always been a favorite past time of mine; I will digest anything ranging from fantasy and science fiction to bibliographies.
                            Some of my must reads include: any and all of Brandon Sanderson's novels, but especially the <strong><a className="underLine" href="https://www.amazon.com/gp/product/B003P2WO5E/ref=series_dp_rw_ca_1">Stormlight Archive</a></strong> series,
                            Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Walter Isaacson’s <strong><a className="underLine" href="https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150">Leonardo da Vinci</a></strong> bibliography.
                         </ul>
@@ -51,8 +51,8 @@ class Hobbies extends Component {
                             It is also a life long goal of mine to live and experience life in as many countries as possible. I hope to someday get to visit South America, specifically Peru, whenever I get the opportunity to do so.         
                         </ul>
                         <ul>
-                            If you or your friends are interested in a good laugh at terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of terrible writing imaginable.
-                            Otherwise if your interested in being hungary, you can follow my traveling adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which chronicles my attempts to gain enough weight to eventually self collapse into a black hole.
+                            If you or your friends are interested in a good laugh at some terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of awfulness imaginable.
+                            Otherwise if your interested in being hungry, you can follow my traveling adventures <strong><a className="underLine" href="https://www.instagram.com/feastingwithandre/">here</a></strong> which chronicles my attempts to gain enough weight to eventually self collapse into a black hole.
                         </ul>
                     </p>
                     </div>

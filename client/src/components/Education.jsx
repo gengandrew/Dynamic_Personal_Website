@@ -43,7 +43,7 @@ class Education extends Component {
                         <ul>
                             Currently an undergraduate studying <strong><a className="underLine" href="https://www.cs.wisc.edu/">Computer Science</a></strong> and <strong><a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a></strong> at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong>. 
                             <ul>
-                                <li>Coordinator of the <strong><a className="underLine" href="https://uw-upl.github.io/">Undergraduate Project Lab</a></strong>.</li>
+                                <li>Coordinator of the <strong><a className="underLine" href="https://uw-upl.github.io/">Undergraduate Projects Lab</a></strong>.</li>
                                 <li>Active member of <strong><a className="underLine" href="https://wis.triangle.org/">Triangle</a></strong>, a fraternity of Engineers, architects, and scientists.</li>
                                 <li>Previous member of <strong><a className="underLine" href="https://badgerloop.com/#/home">Badgerloops</a></strong>.</li>
                             </ul>
@@ -51,7 +51,7 @@ class Education extends Component {
                     </p>
                     <p>
                         <ul>
-                        Previously attended High School at <strong><a className="underLine" href="https://mcpasd.k12.wi.us/mhs/">Middleton High School</a></strong> where I participated in Model UN, Track and Field, Math Team, Programming Club, and was an active member of the First Robotics Team <strong><a className="underLine" href="http://www.badgerbots.org/">Badgerbots</a></strong>.
+                        Previously attended High School at <strong><a className="underLine" href="https://mcpasd.k12.wi.us/mhs/">Middleton High School</a></strong> where I participated in Model UN, Track and Field, Math Team, Programming Club, and the First Robotics Team <strong><a className="underLine" href="http://www.badgerbots.org/">Badgerbots</a></strong>.
                         </ul>
                     </p>
                     </div>
