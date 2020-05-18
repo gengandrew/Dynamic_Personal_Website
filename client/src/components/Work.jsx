@@ -42,35 +42,40 @@ class Work extends Component {
                     <div style={{marginTop: "1rem"}}>
                     <h3 id="Work_Experiences">Work and Internship Experiences</h3>
                     <p>
-                        <ul><em><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a> (Software Intern) <i>(Summer 2019)</i></em>
+                        <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Software Intern) <i>(Summer 2020)</i></em>
+                            <ul>
+                                <li>Incoming Software Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
+                            </ul>
+                        </ul>
+                        <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Full Stack Software Intern) <i>(Summer 2019)</i></em>
                             <ul>
                                 <li>Full Stack Software Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
                                 <li>Worked on developing backend Java applications with corresponding test case components.</li>
                                 <li>Significantly improved runtime from 2 hours to 50 min, in addition to improving general manageability of code base.</li>
                             </ul>
                         </ul>
-                        <ul><em><a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> (Software Engineering Intern) <i>(Summer 2018)</i></em>
+                        <ul><em><strong><a className="underLine" href="http://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a></strong> (Software Engineering Intern) <i>(Summer 2018)</i></em>
                             <ul>
                                 <li>Full Stack Developer and Project Manager for TimeTracker.</li>
                                 <li>Application development with C# <em>(.Net Framework)</em> and SQL Express backend.</li>
                                 <li>Managed quality assessment, UX interviews, and software validation for applications.</li>
                             </ul>
                         </ul>
-                        <ul><em><a className="underLine" href="https://hci.cs.wisc.edu/">HCI Laboratory</a> (Undergraduate Researcher) <i>(2018 ~ present)</i></em>
+                        <ul><em><strong><a className="underLine" href="https://hci.cs.wisc.edu/">HCI Laboratory</a></strong> (Undergraduate Researcher) <i>(2018 ~ present)</i></em>
                             <ul>
-                                <li>Co-investigator for personal assistant project involving specialized vocal speech patterns.</li>
-                                <li>Designed case study procedures and conducted in person experiments.</li>
+                                <li>Co-investigator for several studies focusing on personal assistants and intelligent agents.</li>
+                                <li>Designed research procedures and conducted in person experiments.</li>
                                 <li>Conducted statistical analysis and exploration on collected experimental data.</li>
                             </ul>
                         </ul>
-                        <ul><em><a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">DOIT Office of Cybersecurity</a> (Cybersecurity Intern) <i>(2017 ~ present)</i></em>
+                        <ul><em><strong><a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">DOIT Office of Cybersecurity</a></strong> (Cybersecurity Intern) <i>(December 2017 ~ May 2020)</i></em>
                             <ul>
                                 <li>Part time security analyst and developer for the Office of Cybersecurity.</li>
                                 <li>Assisting security officers with weekly and monthly reports on security incidents</li>
                                 <li>Building on existing scripts and remodeling concurrently used internal applications.</li>    
                             </ul>
                         </ul>
-                        <ul><em><a className="underLine" href="http://skoplab.weebly.com/ahna-skop.html">Dr. Ahna Skop's Laboratory</a> (Undergraduate Technician) <i>(December 2016 ~ January 2018)</i></em>
+                        <ul><em><strong><a className="underLine" href="http://skoplab.weebly.com/ahna-skop.html">Dr. Ahna Skop's Laboratory</a></strong> (Undergraduate Technician) <i>(December 2016 ~ January 2018)</i></em>
                             <ul>
                                 <li>Maintaining laboratory computers, equipments, and databases.</li>
                                 <li>Maintaining laboratory chemicals, solutions, plates, and etc.</li>

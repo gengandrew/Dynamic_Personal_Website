@@ -19,7 +19,7 @@ class ErrorPage extends Component {
         </Row>
         <Row>
           <Col xs="1"></Col>
-          <Col><div style={{textAlign: "center", fontSize: "18px"}}>Click <a className="underLine" onClick={this.ReloadWindow} name="/~ageng/#/" style={{cursor: "pointer"}}>here</a> to go back to the homepage.</div></Col>
+          <Col><div style={{textAlign: "center", fontSize: "18px"}}>Click <a className="underLine" onClick={this.ReloadWindow} name="/~ageng/#/" style={{cursor: "pointer"}}>here</a> to go back to Andrew's homepage.</div></Col>
           <Col xs="1"></Col>
         </Row>
         <Row>

@@ -48,7 +48,7 @@ class Hobbies extends Component {
                         </ul>
                         <ul>
                             Music has also played a significant role in my daily life, with myself playing the trumpet and piano throughout the majority of my childhood. 
-                            It is also a life long goal of mine to live and experience life in as many countries as possible. I hope to someday get to visit South America, specifically Peru, whenever I get the opportunity to do so.         
+                            It has also a life long goal of mine to live and experience life in as many countries as possible. I hope to someday get to visit South America, specifically Peru, whenever I get the opportunity to do so.         
                         </ul>
                         <ul>
                             If you or your friends are interested in a good laugh at some terrible writing, my Medium profile is <strong><a className="underLine" href="https://medium.com/@ageng">here</a></strong> with every sort of awfulness imaginable.

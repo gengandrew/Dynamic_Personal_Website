@@ -45,13 +45,13 @@ class Education extends Component {
                             <ul>
                                 <li>Coordinator of the <strong><a className="underLine" href="https://uw-upl.github.io/">Undergraduate Projects Lab</a></strong>.</li>
                                 <li>Active member of <strong><a className="underLine" href="https://wis.triangle.org/">Triangle</a></strong>, a fraternity of Engineers, architects, and scientists.</li>
-                                <li>Previous member of <strong><a className="underLine" href="https://badgerloop.com/#/home">Badgerloops</a></strong>.</li>
+                                <li>Previously a member of <strong><a className="underLine" href="https://badgerloop.com/#/home">Badgerloops</a></strong>.</li>
                             </ul>
                         </ul>
                     </p>
                     <p>
                         <ul>
-                        Previously attended High School at <strong><a className="underLine" href="https://mcpasd.k12.wi.us/mhs/">Middleton High School</a></strong> where I participated in Model UN, Track and Field, Math Team, Programming Club, and the First Robotics Team <strong><a className="underLine" href="http://www.badgerbots.org/">Badgerbots</a></strong>.
+                        Attended High School at <strong><a className="underLine" href="https://mcpasd.k12.wi.us/mhs/">Middleton High School</a></strong> in Middleton, Wisconsin where I participated in Model UN, Track and Field, Math Team, Programming Club, and the First Robotics Team <strong><a className="underLine" href="http://www.badgerbots.org/">Badgerbots</a></strong>.
                         </ul>
                     </p>
                     </div>

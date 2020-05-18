@@ -71,13 +71,13 @@ class HomeContent extends Component {
                 studying <a className="underLine" href="https://www.cs.wisc.edu/">Computer Science </a> and <a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a>.
               </p>
               <p>
-                I'm currently working part time for the <a className="underLine" href="https://it.wisc.edu/">UW Division of Information Technology</a> in the <a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">Office of Cybersecurity</a> as a Cybersecurity Intern. 
-                Formerly I worked as a Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> at the <a className="underLine" href="https://developer.ibm.com/dwblog/2017/ibm-silicon-valley-lab-40th-anniversary/">Silicon Valley Lab</a> location in <a className="underLine" href="#">San Jose, California</a>, 
-                and as a Software Intern for <a className="underLine" href="https://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston Scientific</a> in <a className="underLine" href="#">Minneapolis, Minnesota</a>.
+                I'm an incoming Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> at the <a className="underLine" href="https://developer.ibm.com/dwblog/2017/ibm-silicon-valley-lab-40th-anniversary/">Silicon Valley Lab</a> location. 
+                Formerly I worked as a Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> in San Jose, California, <a className="underLine" href="https://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston 
+                Scientific</a> in Minneapolis, Minnesota, and the <a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">Office of Cybersecurity</a> at the <a className="underLine" href="https://it.wisc.edu/">UW Division of Information Technology</a>.
               </p>
               <p>
-                If you wouldn't mind taking this <SurveyInLine /> so I can learn more about you, then that would be wonderful.
-                In the meantime please feel free to browse through my webpage or simply see some <DogModal text="cute doggos"/> I found online.
+                If you do not mind, please feel free to take this <SurveyInLine /> so I can learn a little bit more about you.
+                In the meantime please feel free to browse through my webpage or simply view some <DogModal text="cute doggos"/> I found on the internet.
               </p>
             </div> 
           </Col>
