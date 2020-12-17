@@ -22,7 +22,7 @@ class Headshot extends Component {
                     </Media>
                     <Media>
                         <strong>Email:</strong> 
-                        <a className="noLine" style={{marginLeft: "5px"}}>ageng@wisc.edu</a>
+                        <a className="noLine" style={{marginLeft: "5px"}}>andrew-geng@outlook.com</a>
                     </Media>
                     <Media>
                         <strong>Phone:</strong> 

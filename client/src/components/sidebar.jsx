@@ -87,10 +87,10 @@ class Sidebar extends Component {
                   <a href="https://uw-upl.github.io/">Undergraduate Project Lab</a>
                 </li>
                 <li>
-                  <a href="https://hci.cs.wisc.edu/">Wisconsin HCI Lab</a>
+                  <a href="http://pages.cs.wisc.edu/~sharonli/index.html">Dr. Sharon Li</a>
                 </li>
                 <li>
-                  <a href="http://skoplab.weebly.com/ahna-skop.html">Skop Lab</a>
+                  <a href="https://hci.cs.wisc.edu/">Wisconsin HCI Lab</a>
                 </li>
               </ul>
             </Collapse>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Media } from "reactstrap";
 import InsertDBModal from "./InsertDBModal";
 import MMM_Research from "../images/MMM.jpg";
+import anomaly from "../images/anomaly_detection.png"
 
 class Hobbies extends Component {
     render() { 
@@ -29,10 +30,10 @@ class Hobbies extends Component {
                     <Col></Col>
                     <Col>
                         <Media><Media>
-                            <Media object src={MMM_Research} style={{maxHeight: 700, maxWidth: 700, marginRight: "1rem"}} alt="BadgerBot" id="HeadImg"/>
+                            <Media object src={anomaly} style={{maxHeight: 400, maxWidth: 700, marginRight: "1rem"}} alt="BadgerBot" id="HeadImg"/>
                         </Media></Media>
                         <div style={{float: "right", fontSize: "11px", fontStyle: "italic"}} id="HeadImg_Link">
-                            - Check out some cool Music, Mind, and Machine Research <a className="underLine" href="https://www.media.mit.edu/groups/music-mind-and-machine/overview/">here</a>, <a className="underLine" href="http://trim.mtu.edu/">here</a>, and <a className="underLine" href="https://www.springer.com/us/book/9783540585282">here</a>.
+                            - Check out some cool OOD and Anomaly Detection Research <a className="underLine" href="https://arxiv.org/abs/2006.15207">here</a>, <a className="underLine" href="http://dm.snu.ac.kr/static/docs/TR/SNUDM-TR-2015-03.pdf">here</a>, and <a className="underLine" href="https://arxiv.org/abs/2010.03759">here</a>.
                         </div>
                         </Col>                
                     <Col></Col>

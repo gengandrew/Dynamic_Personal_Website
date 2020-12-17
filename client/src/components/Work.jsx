@@ -42,9 +42,17 @@ class Work extends Component {
                     <div style={{marginTop: "1rem"}}>
                     <h3 id="Work_Experiences">Work and Internship Experiences</h3>
                     <p>
+                        <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Software Developer) <i>(January 2021 ~ present)</i></em>
+                            <ul>
+                                <li>Incoming Software Developer for the IBM Systems team at the Silicon Valley Lab location.</li>
+                            </ul>
+                        </ul>
                         <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Software Intern) <i>(Summer 2020)</i></em>
                             <ul>
-                                <li>Incoming Software Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
+                                <li>Software Development Intern for the IBM Systems team at the Silicon Valley Lab location.</li>
+                                <li>Developed automated request framework and data visualization tool for system-level tests.</li>
+                                <li>Enhanced maintainability and legibility through consistent and heavy documentation.</li>
+                                <li>Significantly improved test tool runtime from 8 hours to 3.5 hours and reduced code base from 26,750 to 17,550 lines of code.</li>
                             </ul>
                         </ul>
                         <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Full Stack Software Intern) <i>(Summer 2019)</i></em>

@@ -45,6 +45,7 @@ class Miscellaneous extends Component {
                                 <li><em>CS 577 (Introduction to Algorithms)</em></li>
                                 <li><em>CS 540 (Introduction to Artificial Intelligence)</em></li>
                                 <li><em>CS 537 (Introduction to Operating Systems)</em></li>
+                                <li><em>CS 536 (Introduction to Compilers)</em></li>
                                 <li><em>CS 532 (Matrix Methods in Machine Learning)</em></li>
                                 <li><em>CS 525 (Linear Programming Methods)</em></li>
                                 <li><em>CS 520 (Introduction to the Theory of Computing)</em></li>

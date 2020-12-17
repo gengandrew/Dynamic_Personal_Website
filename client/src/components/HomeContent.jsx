@@ -67,11 +67,10 @@ class HomeContent extends Component {
             <div>
               <p style={{marginTop: "2rem"}}>
                 Hello there and welcome to my personal webpage!
-                My name is Andrew Geng and I am an undergraduate at the <a className="underLine" href="https://www.wisc.edu/">University of Wisconsin-Madison </a> 
-                studying <a className="underLine" href="https://www.cs.wisc.edu/">Computer Science </a> and <a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a>.
+                My name is Andrew Geng and I am currently a Software Developer for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> at the <a className="underLine" href="https://developer.ibm.com/dwblog/2017/ibm-silicon-valley-lab-40th-anniversary/">Silicon Valley Lab</a> location.
               </p>
               <p>
-                I'm an incoming Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> at the <a className="underLine" href="https://developer.ibm.com/dwblog/2017/ibm-silicon-valley-lab-40th-anniversary/">Silicon Valley Lab</a> location. 
+                I studied <a className="underLine" href="https://www.cs.wisc.edu/">Computer Science </a> and <a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a> at the <a className="underLine" href="https://www.wisc.edu/">University of Wisconsin-Madison</a>.
                 Formerly I worked as a Software Intern for <a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM </a> in San Jose, California, <a className="underLine" href="https://www.bostonscientific.com/content/gwc/en-US/Home.html">Boston 
                 Scientific</a> in Minneapolis, Minnesota, and the <a className="underLine" href="https://it.wisc.edu/about/division-of-information-technology/cybersecurity/">Office of Cybersecurity</a> at the <a className="underLine" href="https://it.wisc.edu/">UW Division of Information Technology</a>.
               </p>
