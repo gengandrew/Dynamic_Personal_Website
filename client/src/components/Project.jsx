@@ -38,8 +38,14 @@ class Project extends Component {
                 </Row>
                 <Container style={{marginTop: "2rem", marginBottom: "4rem"}}>
                     <div>
-                    <h3>Personal and Group Endevors</h3>
+                    <h3>Personal and Group Endeavors</h3>
                     <p>
+                        <ul><em>Undergraduate Projects Lab:</em>
+                            <ul>
+                                <li>Coordinator of the Undergraduate Project Lab, a self-regulating laboratory within the University of Wisconsin-Madison Department of Computer Science.</li>
+                                <li>Worked with fellow coordinators on hosting events, talks, hackathons, and more.</li>
+                            </ul>
+                        </ul>
                         <ul><em>Race Accross America:</em>
                             <ul>
                                 <li>Developer within a team of 15 Engineer and Data Scientists working on an application for Dave Haase in the Race Across America competition.</li>
@@ -63,18 +69,10 @@ class Project extends Component {
                                 <li>Open source project can be found <a className="underLine" href="https://github.com/gengandrew/Devtool_Interface">here</a>.</li>
                             </ul>
                         </ul>
-                        <ul><em>BadgerLoops and Badgerbots:</em>
+                        <ul><em>Badgerbots:</em>
                             <ul>
-                                <li>Winning Innovation award for the Hyperloop competition at SpaceX in Hawthorne California (Badgerloops)</li>
                                 <li>Winning Chairman’s Award (2014) and Inspiration Award (2015) at the FRC Wisconsin Regionals, in addition to 2 time competitor at the FRC World Championship (BadgerBots)</li>
                                 <li>Team lead in Robotic Arm Team (Badgerbots) and Breaking Team Member (Badgerloops)</li>
-                            </ul>
-                        </ul>
-                        <ul><em>EX Games (Mobile Video Game Development):</em>
-                            <ul>
-                                <li>Guiding member in a group of 6 in the creation of an open world fantasy RPG.</li>
-                                <li>Team lead in storyboard, combat mechanics, and general AI.</li>
-                                <li>General AI and Combat mechanics development.</li>
                             </ul>
                         </ul>
                     </p>

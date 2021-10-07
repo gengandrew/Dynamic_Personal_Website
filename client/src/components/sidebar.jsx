@@ -53,10 +53,13 @@ class Sidebar extends Component {
             <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Education">Education</a>
           </li>
           <li>
-            <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
+            <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
           </li>
           <li>
-            <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Work_and_Internship_Experiences">Work and Internship Experiences</a>
+            <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Research_Experiences">Research Experiences</a>
+          </li>
+          <li>
+            <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Core_Skills_and_Programming_Languages">Core Skills and Programming Languages</a>
           </li>
           <li>
             <a onClick={this.ReloadWindow} style={{cursor: "pointer"}} name="/~ageng/#/Personal_and_Group_Endeavors">Personal and Group Endeavors</a>

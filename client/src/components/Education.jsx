@@ -41,11 +41,20 @@ class Education extends Component {
                     <h3>Education</h3>
                     <p>
                         <ul>
-                            I did my undergraduate at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong> on <strong><a className="underLine" href="https://www.cs.wisc.edu/">Computer Science</a></strong> and <strong><a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a></strong>.
+                            Currently pursuing my Masters at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong> on <strong><a className="underLine" href="https://www.engr.wisc.edu/department/electrical-computer-engineering/">Electrical and Computer Engineering</a></strong>.
+                            <ul>
+                                <li>Advisors: <strong><a className="underLine" href="https://kangwooklee.com/">Dr. Kangwook Lee</a></strong> and <strong><a className="underLine" href="http://pages.cs.wisc.edu/~sharonli/">Dr. Sharon Yixuan Li</a></strong>.</li>
+                            </ul>
+                        </ul>
+                    </p>
+                    <p>
+                        <ul>
+                            Bachelor's at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong> on <strong><a className="underLine" href="https://www.cs.wisc.edu/">Computer Science</a></strong> and <strong><a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a></strong>.
                             <ul>
                                 <li>Coordinator of the <strong><a className="underLine" href="https://uw-upl.github.io/">Undergraduate Projects Lab</a></strong>.</li>
                                 <li>Active member of <strong><a className="underLine" href="https://wis.triangle.org/">Triangle</a></strong>, a fraternity of Engineers, architects, and scientists.</li>
-                                <li>Previously a member of <strong><a className="underLine" href="https://badgerloop.com/#/home">Badgerloops</a></strong>.</li>
+                                <li>Advisors: <strong><a className="underLine" href="http://pages.cs.wisc.edu/~bilge/">Dr. Bilge Mutlu</a></strong>.</li>
+                                <li>Thesis: <strong><a className="underLine" href="">Designing Emotionally Adapt Intelligent Agents</a></strong>.</li>
                             </ul>
                         </ul>
                     </p>

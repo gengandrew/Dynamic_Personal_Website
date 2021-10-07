@@ -42,6 +42,7 @@ class Miscellaneous extends Component {
                         <ul><strong>Advance Computer Science Courses Taken:</strong>
                             <ul>
                                 <li><em>CS 761 (Mathematical Foundations of Machine Learning)</em></li>
+                                <li><em>CS 760 (Machine Learning)</em></li>
                                 <li><em>CS 577 (Introduction to Algorithms)</em></li>
                                 <li><em>CS 540 (Introduction to Artificial Intelligence)</em></li>
                                 <li><em>CS 537 (Introduction to Operating Systems)</em></li>

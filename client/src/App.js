@@ -13,6 +13,7 @@ import SkillsPage from "./pages/SkillsPage";
 import HobbiesPage from "./pages/HobbiesPage";
 import MiscPage from "./pages/MiscPage";
 import ProjectPage from "./pages/ProjectPage";
+import ResearchPage from "./pages/ResearchPage";
 import WorkPage from "./pages/WorkPage";
 import HomePage from "./pages/HomePage";
 import store from "./store";
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/Education" component={EducationPage} exact />
           <Route path="/Core_Skills_and_Programming_Languages" component={SkillsPage} exact />
           <Route path="/Work_and_Internship_Experiences" component={WorkPage} exact />
+          <Route path="/Research_Experiences" component={ResearchPage} exact />
           <Route path="/Personal_and_Group_Endeavors" component={ProjectPage} exact />
           <Route path="/Hobbies_and_Interests" component={HobbiesPage} exact />
           <Route path="/Miscellaneous" component={MiscPage} exact />

@@ -22,15 +22,15 @@ class Headshot extends Component {
                     </Media>
                     <Media>
                         <strong>Email:</strong> 
-                        <a className="noLine" style={{marginLeft: "5px"}}>andrew-geng@outlook.com</a>
+                        <a className="noLine" style={{marginLeft: "5px"}}>ageng@wisc.edu</a>
                     </Media>
                     <Media>
                         <strong>Phone:</strong> 
                         <div style={{marginLeft: "5px"}}>(608)999-0795</div>
                     </Media>
                     <Media>
-                        <strong>Address:</strong> 
-                        <div style={{marginLeft: "5px"}}>630 Samuel Dr. Madison, WI 53717</div>
+                        <strong>Office:</strong> 
+                        <div style={{marginLeft: "5px"}}>401 Charmany Dr. Madison, WI 53719</div>
                     </Media>
                     <Media>
                         <strong>Website:</strong> 
