@@ -41,6 +41,9 @@ class Miscellaneous extends Component {
                     <p>
                         <ul><strong>Advance Computer Science Courses Taken:</strong>
                             <ul>
+                                <li><em>CS 861 (Theoretical Foundations of Machine Learning)</em></li>
+                                <li><em>CS 839 (Advanced Topics in Reinforcement Learning)</em></li>
+                                <li><em>CS 839 (Learning More with Less Supervision)</em></li>
                                 <li><em>CS 761 (Mathematical Foundations of Machine Learning)</em></li>
                                 <li><em>CS 760 (Machine Learning)</em></li>
                                 <li><em>CS 577 (Introduction to Algorithms)</em></li>
@@ -58,6 +61,12 @@ class Miscellaneous extends Component {
                                 <li><em>Math 521 (Analysis I)</em></li>
                                 <li><em>Math 431 (Introduction to the Theory of Probability)</em></li>
                                 <li><em>Math 421 (The Theory of Single Variable Calculus)</em></li>
+                            </ul>
+                        </ul>
+                        <ul><strong>Advance Engineering Courses Taken:</strong>
+                            <ul>
+                                <li><em>ECE 888 (Causal Inference)</em></li>
+                                <li><em>ECE 729 (Information Theory)</em></li>
                             </ul>
                         </ul>
                     </p>

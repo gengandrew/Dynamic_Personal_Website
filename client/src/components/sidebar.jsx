@@ -43,7 +43,7 @@ class Sidebar extends Component {
     return (
       <nav id="sidebar">
         <div className="sidebar-header">
-          <h3>Andrew's Awesome Content</h3>
+          <h3>Andrew's Awesome Sidebar</h3>
         </div>
         <ul className="list-unstyled components">
           <li>

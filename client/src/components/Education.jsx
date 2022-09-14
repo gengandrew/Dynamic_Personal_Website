@@ -49,7 +49,7 @@ class Education extends Component {
                     </p>
                     <p>
                         <ul>
-                            Bachelor's at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong> on <strong><a className="underLine" href="https://www.cs.wisc.edu/">Computer Science</a></strong> and <strong><a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a></strong>.
+                            Bachelor of Science in <strong><a className="underLine" href="https://www.cs.wisc.edu/">Computer Science</a></strong> and <strong><a className="underLine" href="https://www.math.wisc.edu/">Mathematics</a></strong> at the <strong><a className="underLine" href="https://www.wisc.edu/">University of Wisconsin Madison</a></strong>.
                             <ul>
                                 <li>Coordinator of the <strong><a className="underLine" href="https://uw-upl.github.io/">Undergraduate Projects Lab</a></strong>.</li>
                                 <li>Active member of <strong><a className="underLine" href="https://wis.triangle.org/">Triangle</a></strong>, a fraternity of Engineers, architects, and scientists.</li>

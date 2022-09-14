@@ -43,12 +43,12 @@ class Hobbies extends Component {
                     <h3>Hobbies and Interests</h3>
                     <p>
                         <ul>
-                           Reading has always been a favorite past time of mine; I will digest anything ranging from fantasy and science fiction to bibliographies.
+                           Reading has always been a favorite past time of mine; I will read anything ranging from fantasy and science fiction to bibliographies.
                            Some of my must reads include: any and all of Brandon Sanderson's novels, but especially the <strong><a className="underLine" href="https://www.amazon.com/gp/product/B003P2WO5E/ref=series_dp_rw_ca_1">Stormlight Archive</a></strong> series,
-                           Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Walter Isaacson’s <strong><a className="underLine" href="https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150">Leonardo da Vinci</a></strong> bibliography.
+                           Patrick Rothfuss' <strong><a className="underLine" href="https://www.amazon.com/gp/product/B0010SKUYM/ref=series_dp_rw_ca_1">Kingkiller Chronicle</a></strong>, and Walter Isaacson's <strong><a className="underLine" href="https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150">Leonardo da Vinci</a></strong> bibliography.
                         </ul>
                         <ul>
-                            Music has also played a significant role in my daily life, with myself playing the trumpet and piano throughout the majority of my childhood. 
+                            Music has also played a significant role in my daily life, I've played the trumpet and piano throughout the majority of my childhood. 
                             It has also a life long goal of mine to live and experience life in as many countries as possible. I hope to someday get to visit South America, specifically Peru, whenever I get the opportunity to do so.         
                         </ul>
                         <ul>

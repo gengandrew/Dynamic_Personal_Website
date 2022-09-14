@@ -47,6 +47,13 @@ class Work extends Component {
                                 <li>Currently working as a Software Engineer for the IBM Systems team at the Silicon Valley Lab location.</li>
                             </ul>
                         </ul>
+                        <ul><em><strong><a className="underLine" href="https://www.amazon.science/">Amazon</a></strong> (Applied Science Intern) <i>(Summer 2022)</i></em>
+                            <ul>
+                                <li>Applied Science Intern for the Amazon Marketing Research team at the Manhattan NY location.</li>
+                                <li>Studied and developed a New ASIN (Product on Amazon) advertiser readiness model.</li>
+                                <li>Deployed full model into production in the United States Marketplace.</li>
+                            </ul>
+                        </ul>
                         <ul><em><strong><a className="underLine" href="https://www.ibm.com/us-en/?ar=1">IBM</a></strong> (Software Intern) <i>(Summer 2020)</i></em>
                             <ul>
                                 <li>Software Development Intern for the IBM Systems team at the Silicon Valley Lab location.</li>

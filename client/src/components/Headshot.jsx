@@ -30,7 +30,7 @@ class Headshot extends Component {
                     </Media>
                     <Media>
                         <strong>Office:</strong> 
-                        <div style={{marginLeft: "5px"}}>401 Charmany Dr. Madison, WI 53719</div>
+                        <div style={{marginLeft: "5px"}}>401 Charmany Dr Madison, WI 53719</div>
                     </Media>
                     <Media>
                         <strong>Website:</strong> 

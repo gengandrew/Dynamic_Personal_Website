@@ -46,15 +46,14 @@ class Project extends Component {
                     <h3>Math 888 Causal Inference (Homework 1)</h3>
                     <p>
                     <ul>
-                        <b>Question 1-3: </b>I've updated my website main page <a className="underLine" onClick={this.ReloadWindow} name="/~ageng/#/" style={{cursor: "pointer"}}>here</a> 
-                        which contains a brief description of myself and my interests.
+                        <b>Question 1-3: </b>I've updated my website main page <a className="underLine" onClick={this.ReloadWindow} name="/~ageng/#/" style={{cursor: "pointer"}}>here</a> which contains a brief description of myself and my interests.
                     </ul>
                     <ul>
                         <b>Question 4: </b>The most recent summer I was working as an intern for the Amazon Marketing Research team, and
-                        a large of the problems and solutions we were attempting to solve boiled down to finding causality. Subsequently,
-                        this kind of opened my eyes to the applications of causal inference as well as my own lack of knowledge towards the 
-                        topic. Hence when I saw this course being offered I thought this would be a perfect opportunity to learn more about
-                        the field.
+                        a large portion of the problems and solutions we were tackeling boiled down to finding causality. Subsequently,
+                        this opened my eyes to the applications of causal inference as well as my own lack of knowledge towards the 
+                        topic. Hence, when I saw this course being offered I thought this would be a perfect opportunity to learn more about
+                        causal inference.
                     </ul>
                     </p>
                     </div>
@@ -66,19 +65,5 @@ class Project extends Component {
         );
     }
 }
-/*
-Code Poetry below if want to be added:
-<Row>
-    <Col></Col>
-    <Col>
-        <Media>
-            <Media>
-                <Media object src={poetry} style={{maxHeight: 700, maxWidth: 700}} alt="UWMadison_Main"/>
-            </Media>
-        </Media>
-    </Col>
-    <Col></Col>
-</Row>
-*/
  
 export default Project;
