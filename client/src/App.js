@@ -16,6 +16,7 @@ import ProjectPage from "./pages/ProjectPage";
 import ResearchPage from "./pages/ResearchPage";
 import WorkPage from "./pages/WorkPage";
 import HomePage from "./pages/HomePage";
+import CausalPage from "./pages/CausalPage";
 import store from "./store";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -35,6 +36,9 @@ class App extends Component {
           <Route path="/Personal_and_Group_Endeavors" component={ProjectPage} exact />
           <Route path="/Hobbies_and_Interests" component={HobbiesPage} exact />
           <Route path="/Miscellaneous" component={MiscPage} exact />
+          
+          <Route path="/Math888_Causal_Inference" component={CausalPage} exact />
+
           <Route path="/*" component={ErrorPage} exact />
         </Switch>
       </HashRouter>
