@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sidebar from "../components/Sidebar";
-import Causal from "../classes/Causal";
+import Project from "./Project";
 import "jquery";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,7 +11,7 @@ class CausalPage extends Component {
     return (
       <div className="wrapper">
         <Sidebar />
-        <Causal />
+        <Project />
       </div>
     );
   }

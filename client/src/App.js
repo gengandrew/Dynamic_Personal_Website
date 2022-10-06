@@ -16,11 +16,13 @@ import ProjectPage from "./pages/ProjectPage";
 import ResearchPage from "./pages/ResearchPage";
 import WorkPage from "./pages/WorkPage";
 import HomePage from "./pages/HomePage";
-import CausalPage from "./pages/CausalPage";
 import store from "./store";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/stylesheet.css";
+
+import CausalPage from "./classes/CausalPage"
+import CausalProjectPage from "./classes/ProjectPage";
 
 class App extends Component {
   render() {
@@ -38,6 +40,7 @@ class App extends Component {
           <Route path="/Miscellaneous" component={MiscPage} exact />
           
           <Route path="/Math888_Causal_Inference" component={CausalPage} exact />
+          <Route path="/Math888_Project_Proposal" component={CausalProjectPage} exact />
 
           <Route path="/*" component={ErrorPage} exact />
         </Switch>

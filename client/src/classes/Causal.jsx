@@ -41,6 +41,7 @@ class Project extends Component {
                     </Col>                
                     <Col></Col>
                 </Row>
+                
                 <Container style={{marginTop: "2rem", marginBottom: "4rem"}}>
                     <div>
                     <h3>Math 888 Causal Inference (Homework 1)</h3>
